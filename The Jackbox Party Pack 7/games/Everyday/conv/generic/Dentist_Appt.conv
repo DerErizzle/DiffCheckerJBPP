@@ -1,0 +1,17 @@
+MAIN(Dentist): What's the reason for your visit?
+-CLEAN-> Need a cleaning
+-PAIN-> Mouth is full of pain
+-HUM-> Teeth are humming
+-MISS-> I just miss you
+
+CLEAN(Dentist): Great! See ya Monday
+-SUCCESS-> I hope I didn't come off as desperate
+
+PAIN(Dentist): Uh oh! See ya Monday
+-SUCCESS-> Thank Yo..uaghgaAAAHH!!!!
+
+HUM(Dentist): Yes, I can hear them.
+-SUCCESS-> See ya Monday! Bzzzzzzzzz
+
+MISS(Dentist): That's...not a reason for a visit.
+-FAILURE-> Stupid healthy teeth. 

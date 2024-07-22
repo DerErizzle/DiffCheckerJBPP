@@ -1,0 +1,30 @@
+MAIN(Boss): Good evening.
+-POLITE-> And a good evening to you, madam.
+-PARK-> You didn't park on the street did you?
+-WRONG-> Sorry, wrong house.
+
+POLITE(Boss): Where should I put my coat?
+-TAKECOAT-> I'll take it!
+-WHOCARES-> Who cares.
+-WHOCARES-> Just toss it on the ground.
+
+TAKECOAT(Boss): Why thank you!
+-SUCCESS-> I'm nailing this!
+
+WHOCARES(Boss): Um... I'll just hang it up?
+-SOUNDSGOOD-> Sounds good!
+-WHOCARES2-> I SAID WHO CARES.
+
+WHOCARES2(Boss): I'm regretting agreeing to this.
+-SUCCESS-> There's no telling what I did wrong.
+
+SOUNDSGOOD(Boss): Great, I guess.
+-SUCCESS-> I'm nailing this!
+
+PARK(Boss): Yes, is that bad?
+-WHOCARES2-> Yeah, your dumb car is blocking my view of the beautiful street.
+-TAKECOAT-> I'll protect that car with my life.
+
+WRONG(Boss): But I'm sure this is the right address...
+-WHOCARES2-> Well, I'm sure I don't care.
+-POLITE-> Just kidding! Welcome to our home!

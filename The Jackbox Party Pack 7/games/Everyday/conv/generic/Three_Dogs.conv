@@ -1,0 +1,28 @@
+MAIN(3 Dogs in a Trench Coat): Help! There's been an accident and I need your kidney right away!
+-YES-> Of course! Anything for my... Wait, aren't you just three dogs in a trench coat?
+-NO-> Never! I will never give my kidneys to... Wait, aren't you just three dogs in a  trench coat?
+-COAT-> Sure, I... Wait, aren't you just three dogs in a trench coat?
+-WHY-> ...what are you going to do with it?
+
+
+YES(3 Dogs in a Trench Coat): Woof woof, dear neighbor. You passed my test. Be well, woof!
+-SUCCESS-> Looks like I'm the alpha!
+
+
+NO(3 Dogs in a Trench Coat): Arf! Curses! Foiled again! Awroo!
+-SUCCESS-> The kidney spends another day where it belongs, inside my tummy. 
+
+
+COAT(3 Dogs in a Trench Coat): Looks like I'M barking up the wrong tree!
+-SUCCESS-> The writers apologize for any mental strain this conversation may have caused. 
+
+
+WHY(3 Dogs in a Trench Coat): Not...to eat...
+-FAILURE-> Oh, in that case, of course! Anything for my human neighbor.
+-TRYAGAIN-> Explain it to me one more time...
+
+
+TRYAGAIN(3 Dogs in a Trench Coat): I just need your kidney! Don't be weird about it, friend!
+-YES-> Of course! Anything for my... Wait, aren't you just three dogs in a  trench coat?
+-NO-> Never! I will never give my kidneys to... Wait, aren't you just three dogs in a  trench coat?
+-COAT-> Sure, I... Wait, aren't you just three dogs in a trench coat?

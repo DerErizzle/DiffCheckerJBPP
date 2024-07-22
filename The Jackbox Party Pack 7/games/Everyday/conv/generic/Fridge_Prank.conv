@@ -1,0 +1,30 @@
+MAIN(Unsuspecting Victim): Hello? Who is this? 
+-UNDERSELL-> Do you have a place to keep your food cold?
+-CLASSIC-> Is your refrigerator running? 
+-OVERSHOOT-> Hey, what's up with your Frigidaire?
+-LOSTIT-> Uh...nevermind. 
+
+
+UNDERSELL(Unsuspecting Victim): Yes! And actually, it hasn't been working, can you come fix it? 
+-SUCCESS-> You learned a trade but lost the prank war.
+
+
+CLASSIC(Unsuspecting Victim): Why yes, yes it is! Thank you for asking! 
+-SUCCESS-> A conversation was had! 
+
+
+OVERSHOOT(Unsuspecting Victim): It's grown legs and started running! I'm ruined! 
+-SUCCESS-> Small business failure...the ultimate prank. 
+
+
+LOSTIT(Unsuspecting Victim): You sure you don't want to do your little prank?
+-FORGOT-> What prank?? I'm definitely a customer. Two of everything please!
+-TRYAGAIN-> Oh, ok! Let me get the nerve up...
+
+FORGOT (Unsuspecting Victim): Pleasure doing business with you!
+-FAILURE-> You forgot to do a prank.
+
+TRYAGAIN(Unsuspecting Victim): Ahem...'Hello?'
+-UNDERSELL-> Do you have a place to keep your food cold?
+-CLASSIC-> Is your refrigerator running? 
+-OVERSHOOT-> Hey, what's up with your Frigidaire?

@@ -1,0 +1,17 @@
+MAIN(Riley): The world is going to end?
+-LOVE->Yes, I love you. 
+-BREAK-> Yep, let's break up
+-BYE-> Uh huh, bye-bye
+-RECORD-> Can I get my records back?
+
+LOVE(Riley): If we survive, let's get married!
+-SUCCESS-> Uh oh
+
+BREAK(Riley): It's THAT kind of day!
+-SUCCESS-> I'll miss your sarcasm
+
+BYE(Riley): bye-bye Smoo Smoo
+-SUCCESS-> We handled that very maturely. 
+
+RECORD(Riley): Never!
+-SUCCESS-> Why do I even have records!

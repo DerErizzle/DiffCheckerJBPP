@@ -1,0 +1,17 @@
+MAIN(Neighbor): Wow. So why'd you spring for this new car?
+-MILEAGE-> It gets great mileage
+-SEATS-> It has leather seats
+-FAST-> It's like...really fast
+-FLY-> It can fly
+
+MILEAGE(Neighbor): Very responsible.
+-SUCCESS-> Can't spell "Careful spending" without "Car"
+
+SEATS(Neighbor): Nice
+-SUCCESS-> How many cows in your car?
+
+FAST(Neighbor): That's like...really cool
+-SUCCESS-> Look at us! Chatting like gearheads.
+
+FLY(Neighbor): Cool. Let's take it off a cliff!
+-SUCCESS-> The lie was worth it to gain a car buddy!

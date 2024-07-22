@@ -1,0 +1,32 @@
+MAIN(Contractor): Time to pay up.
+-POLITE-> Is there any way we could knock this price down?
+-OUTRAGE-> This is outrageous! I refuse to pay!
+-AMNESIA-> I don't remember ordering a pool. You see, I have amnesia.
+
+POLITE(Contractor): That depends. How good are you at negotiating?
+-GOOD-> I'll only answer that question if you give me five dollars.
+-BAD-> I'll only answer that question if I can give you ten dollars.
+
+GOOD(Contractor): You've outsmarted me and now your pool is free.
+-SUCCESS-> That self help tape paid off!
+
+BAD(Contractor): I win this negotiation. Now you must pay double and also install MY pool.
+-SUCCESS-> That could have gone better.
+
+OUTRAGE(Contractor): The joke's on you. We filled your pool with poison and only I have the antidote!
+-UNETHICAL-> The complex nature of the legal system disincentives me from reporting this crime.
+-WIN-> No the joke's on you because I LOVE poison!
+
+WIN(Contractor): You've won this battle, homeowner. But we will win the war.
+-SUCCESS-> I'm done talking to you.
+
+UNETHICAL(Contractor): I was counting on exactly that.
+-SUCCESS-> Just take my wallet.
+
+AMNESIA(Contractor): If you have amnesia, how do you remember you have amnesia?
+-TATOO-> Via a complicated network of body tattoos reminding me of my past.
+-WIN-> I forget.
+-BAD-> Fine, I'm lying.
+
+TATOO(Contractor): I don't see any tattoos. And now I'm also billing you for this ridiculous conversation.
+-SUCCESS-> It was all worth it.

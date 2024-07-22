@@ -1,0 +1,18 @@
+MAIN(Teacher): What are you willing to do to improve your child's grades?
+-HOMEWORK-> Help with homework.
+-EXTRA-> Is there extra credit?
+-YELL-> Yell very loud.
+-BRIBE-> Bribes and more bribes.
+
+
+HOMEWORK(Teacher): That would be great!
+-SUCCESS-> Uh oh. Now I have to learn French.
+
+EXTRA(Teacher): They could build a model...
+-SUCCESS-> To the craft store!
+
+YELL(Teacher): You should probably come in.
+-SUCCESS-> On the bright side, I get to hang up the phone!
+
+BRIBE(Politic): That might work on the math teacher, but not me!
+-SUCCESS-> I didn't have money for the bribe anyway.

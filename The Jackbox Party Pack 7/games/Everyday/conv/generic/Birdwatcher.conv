@@ -1,0 +1,24 @@
+﻿MAIN(Birdwatcher): I just sighted a rare Ruby-Throated Starling in your backyard! Could I maybe get a picture?
+-YES-> Of course!
+-MONEY-> Sure... for twenty bucks.
+-NO-> What is this, the Bird Museum? Get out of here!
+
+YES(Birdwatcher): Hmmm, it's at the top of that wobbly birch tree. Should I climb up for a better shot?
+-LADDER-> I'll get the ladder.
+-YES2-> Go for it.
+-NO2-> This is getting weird. Hit the road!
+
+MONEY(Birdwatcher): Here's your money, you Bird Profiteer.
+-SUCCESS-> They got the picture, but I failed to get swept up in the joy of birdwatching.
+
+NO(Birdwatcher): The Audubon Society will hear about this!
+-FAILURE-> My hatred of birds and their allies strikes again!
+
+LADDER(Birdwatcher): This is perfect! Look at that plumage! Thanks!
+-SUCCESS-> A victory for birds is a victory for everyone! I win!
+
+YES2(Birdwatcher): Well, I got the picture before the branch broke. I'm sure my arm will heal eventually.
+-SUCCESS-> I forgot how violent birdwatching can be.
+
+NO2(Birdwatcher): You're nothing but a BIRD TEASE!
+-FAILURE-> My manners are the REAL endangered species...

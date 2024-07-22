@@ -1,0 +1,18 @@
+MAIN(Cable Rep): What channel are you most interested in adding
+-SNACK-> Snack Network
+-VOYEUR-> Voyeur TV
+-BIRD-> Cool Bird Channel
+-SPORT-> Big Bad Sports
+
+
+SNACK(Cable Rep): Just in time for popcorn week!
+-SUCCESS-> You "butter" believe it!
+
+VOYEUR(Cable Rep): That channel doesn't exist. 
+-FAILURE-> I think I'm picking up my neighbor's security camera.
+
+BIRD(Cable Rep): Just in time for puffin week!
+-SUCCESS-> Can't get enuff puff!
+
+SPORT(Cable Rep): Just in time for luge week!
+-SUCCESS-> Yep! I'm a huge luger!

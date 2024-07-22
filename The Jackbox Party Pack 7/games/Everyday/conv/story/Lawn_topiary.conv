@@ -1,0 +1,17 @@
+MAIN(Neighbor): What's that obscene shrub supposed to be?
+-DRAG-> A dragon attack
+-SELF-> A self-portrait
+-TEST-> That's a Rorschach test
+-DYING-> That shrub is dying
+
+DRAG(Neighbor): Terrifying. 
+-SUCCESS-> Lawn judges only respond to might.
+
+SELF(Neighbor): It's perfect!
+-SUCCESS-> I should see a doctor
+
+TEST(Neighbor): Oh no... Do I hate my mother?
+-SUCCESS-> The topiary says "yes"
+
+DYING(Neighbor): That's bad for your lawn score.
+-SUCCESS-> And the bush

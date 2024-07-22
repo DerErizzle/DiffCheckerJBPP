@@ -1,0 +1,17 @@
+MAIN(Agent): You got a nice sound. What do you call yourselves?
+-SIN-> "The Sin Kin"
+-HECK-> "The Heck House"
+-PITCH-> "The Pitchfork Pack"
+-BRIM-> "The Family Brimstone"
+
+SIN(Agent): Good Enough! Let's sign!
+-SUCCESS-> Let's spend the money right away!
+
+HECK(Agent): Change it to something more edgy and you're in.
+-SUCCESS-> We're selling out already!
+
+PITCH(Agent): Great! I've got just the festival for ya!
+-SUCCESS-> I hope it ends in "-alooza".
+
+BRIM(Agent): Good Enough! Let's sign!
+-SUCCESS-> Let's spend the money right away!

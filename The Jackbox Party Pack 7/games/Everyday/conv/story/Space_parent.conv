@@ -1,0 +1,17 @@
+MAIN(Interviewer): How do you feel about being the first family in space?
+-PROUD-> Proud
+-SCARED-> Scared
+-BORED-> Bored
+-CONFUSED-> Confused and hungry
+
+PROUD(Interviewer): You should be. 
+-SUCCESS-> Take a picture of me in my good pants.
+
+SCARED(Interviewer): You should be.
+-SUCCESS-> Is space not safe?
+
+BORED(Interviewer): Let's talk to someone more interesting.
+-SUCCESS-> Good luck!
+
+CONFUSED(Interviewer): Here's a snack
+-SUCCESS-> Thank you for your support.

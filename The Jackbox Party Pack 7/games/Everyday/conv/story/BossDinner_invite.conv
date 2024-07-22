@@ -1,0 +1,17 @@
+MAIN(Boss): Dinner? Sounds lovely! Is there anything I should bring?
+-NOTHING->  Nothing, we're good!
+-APPETITE-> Just your appetite!
+-MEATLOAFS-> A couple meatloafs!
+-WINE-> A Bottle of wine?
+
+NOTHING(Boss): No... You're great!
+-SUCCESS-> Finally. Validation.
+
+APPETITE(Boss): Will do!
+-SUCCESS-> This night is going to be great.
+
+MEATLOAFS(Boss): Um...no.
+-SUCCESS-> This night just got very awkward... and now I have to cook.
+
+WINE(Boss): Will do!
+-SUCCESS-> This night is going to be great.

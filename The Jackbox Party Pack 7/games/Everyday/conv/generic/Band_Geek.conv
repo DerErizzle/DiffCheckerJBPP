@@ -1,0 +1,23 @@
+﻿MAIN(Band Geek): The marching band looks bad! Do you want to donate money to help us buy new uniforms? 
+-DOLLAR-> Here's a buck.
+-TWENTY-> How about twenty smackers?
+-NOMONEY-> Walking while playing music is an abomination.
+
+
+DOLLAR(Band Geek): Oh...thanks, I guess. 
+-SUCCESS-> You really sousaphone'd it in. 
+
+
+TWENTY(Band Geek): Oh boy! New spit valves for everyone!
+-SUCCESS-> Remember to support local art, but not TOO much.
+
+
+NOMONEY(Band Geek): I guess we'll have to cancel the parade...unless you change your mind?
+-SUCCESS-> Never! Either sit down or get outta here!
+-TRYAGAIN-> Hmm...
+
+
+TRYAGAIN(Band Geek): Yay! How much should I put you down for?
+-DOLLAR-> Here's a buck. 
+-TWENTY-> How about twenty smackers?
+-NOMONEY-> Walking while playing music is an abomination.

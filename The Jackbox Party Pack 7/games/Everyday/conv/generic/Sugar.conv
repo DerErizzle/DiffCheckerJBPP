@@ -1,0 +1,17 @@
+MAIN(Neighbor): Can I borrow a cup of sugar?
+-SURE-> Sure
+-NOPE-> Nope
+-ONE-> Just one?
+-BORROW-> Borrow?
+
+SURE(Neighbor): You're so sweet!
+-SUCCESS-> So is this sugar!
+
+NOPE(Neighbor): ...sorry
+-FAILURE-> My sugar stockpile has cost me so many friends.
+
+ONE(Neighbor): I'll take two gallons if you can spare it?
+-SUCCESS-> Sure can!
+
+BORROW(Neighbor): I'll bring it back
+-SUCCESS-> Oh right, he's just going for his weekly sugar walk. 

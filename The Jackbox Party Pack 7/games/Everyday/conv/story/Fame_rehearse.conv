@@ -1,0 +1,17 @@
+MAIN(Producer): *reading script* "Where are you going?"
+-DUCKS-> We must save these DUCKS!
+-MUST-> We MUST save these ducks!
+-THESE-> We must save THESE ducks!
+-SAVE-> We must SAVE these ducks!
+
+DUCKS(Producer): Good emphasis. The ducks ARE important
+-SUCCESS-> Nailed it!
+
+MUST(Producer): Why are you saying it weird?
+-SUCCESS-> Because I'm a STAR.
+
+THESE(Producer): Good emphasis. The other ducks are evil.
+-SUCCESS-> Nailed it!
+
+SAVE(Producer): Great and the line continues...
+-SUCCESS-> Because I LOVE them!

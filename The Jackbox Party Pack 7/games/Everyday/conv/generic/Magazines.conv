@@ -1,0 +1,24 @@
+MAIN(Neighbor Kid): Hi there, I would to sell you some magazines. What would you like?
+-GARDENS-> Seedy Gardens
+-CELEB-> Celebrity Lunches
+-DOGS-> Dogs & Ammo
+-NONE-> We're not big readers
+
+GARDENS(Neighbor Kid): Great! Sign here!
+-SUCCESS-> This magazine is only for boring adults.
+
+CELEB(Neighbor Kid): Great! Sign here!
+-SUCCESS-> Going to get some great sandwich content.
+
+DOGS(Neighbor Kid): Great! Sign here!
+-SUCCESS-> I am now on a watch list.
+
+NONE(Neighbor Kid): Aw shucks, you sure?
+-SUCCESS-> I'm saving trees!
+-TRYAGAIN-> No...
+
+TRYAGAIN(Neighbor Kid):
+-GARDENS-> Seedy Gardens
+-CELEB-> Celebrity Lunches
+-DOGS-> Dogs & Ammo
+-NONE-> Print is dead!

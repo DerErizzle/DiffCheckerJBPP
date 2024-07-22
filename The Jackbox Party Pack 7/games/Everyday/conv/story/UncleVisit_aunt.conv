@@ -1,0 +1,18 @@
+MAIN(Aunt Flemm): What can I do for you, dear?
+-POLITE-> Just wondering if it's time for Uncle Gorbo to come back home...
+-ROUNDABOUT-> How are things down home, Aunt Flemm?
+-HELP-> UNCLE GORBO IS DRIVING US CRAZY.
+
+POLITE(Aunt Flemm): He's worn out his welcome already, huh?
+-LIE-> No no! In fact we'd love him to stay longer!
+-HELP-> Please help us.
+
+LIE(Aunt Flemm): Fine by me! Tell him I'll see him in a month!
+-SUCCESS-> My politeness was my downfall.
+
+HELP(Aunt Flemm): You tell him I'm reorganizing his porcelain hippo collection. He'll be back here in no time.
+-SUCCESS-> Aunt Flemm is the best.
+
+ROUNDABOUT(Aunt Flemm): Oh fine, fine. Just getting ready for the seasonal firestorms.
+-POLITE-> Sounds like you could use help! Maybe we should send Uncle Gorbo home?
+-LIE-> The weather's perfect here! Uncle Gorbo wants to stay even longer!

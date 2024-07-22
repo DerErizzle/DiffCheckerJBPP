@@ -1,0 +1,28 @@
+MAIN(Nemesis): What ho, neighbor! 'Tis I, your nemesis! Are you ready for our final showdown, coward?
+-ENGAGE-> Have at thee, villain!
+-RUNAWAY-> You'll never catch me, foul wretch! 
+-TRICK-> I know you are, but what am I?
+-FORGOT-> Wait, who are you again?
+
+
+ENGAGE(Nemesis): My revenge is at hand! Swords, backyard, five minutes!
+-SUCCESS-> I hope you believe in the heart of the cards, because it's time to duel!
+
+
+RUNAWAY(Nemesis): You'll never escape! My rage is eternal! 
+-FAILURE-> Time to go back on the run!
+
+
+TRICK(Nemesis): I am...I am...oh my god, who AM I?? Thirty years, wasted!!
+-SUCCESS-> Wordplay wins the day! 
+
+
+FORGOT(Nemesis): It's me! Your nemesis? A former friend turned rival after a great betrayal?
+-SUCCESS-> Hmmm, not ringing any bells. Nice to meet you though!
+-TRYAGAIN-> Ohhh, yeah! Is that a new eyepatch?
+
+
+TRYAGAIN(Nemesis): No. It's the same one. Now, are you ready for our final showdown, or not?
+-ENGAGE-> Have at thee, villain!
+-RUNAWAY-> You'll never catch me, foul wretch! 
+-TRICK-> I know you are, but what am I?

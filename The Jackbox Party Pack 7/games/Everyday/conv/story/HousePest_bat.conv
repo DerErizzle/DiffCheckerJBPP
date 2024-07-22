@@ -1,0 +1,17 @@
+MAIN(Exterminator): What kind of bat is this?
+-NORMAL-> Normal
+-DEMON-> Demonic
+-CURSE-> Cursed
+-EXTRA-> Extra
+
+NORMAL(Exterminator): Then I will use normal bat traps
+-SUCCESS-> I may have gotten this person killed...
+
+DEMON(Exterminator): My specialty 
+-SUCCESS-> Hooray for small businesses!
+
+CURSE(Exterminator): My specialty
+-SUCCESS-> Hooray for small businesses 
+
+EXTRA(Exterminator): Good. I live for drama.
+-SUCCESS-> Look out, bat!

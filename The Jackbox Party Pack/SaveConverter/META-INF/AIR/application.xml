@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/15.0">
+    
+    <id>com.jackboxgames.jackboxpartypack</id>
+    <versionNumber>1.0</versionNumber>
+    <filename>SaveConverter</filename>
+    
+    <name>MainEntry</name>
+    <description></description>
+    <copyright></copyright>
+    
+    <initialWindow>
+        <title>MainEntry</title>
+        <content>MainEntry.swf</content>
+        <systemChrome>standard</systemChrome>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <minimizable>true</minimizable>
+        <maximizable>true</maximizable>
+        <resizable>true</resizable>
+    </initialWindow>
+</application>

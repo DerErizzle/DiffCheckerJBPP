@@ -1,0 +1,18 @@
+MAIN(Neighbor): Could you trim your tree branches?
+-RIGHT-> Right away!
+-FINE-> UGH....FINE!
+-LOVE-> No, I love them!
+-COOK-> For a cookie
+
+
+RIGHT(Neighbor): Thank you!
+-SUCCESS-> Thank YOU for giving me a chance to slice things
+
+FINE(Neighbor): UGH....Thank you!
+-SUCCESS-> UGH...You're Welcome! YOU'RE A WONDERFUL FRIEND!!!
+
+LOVE(Neighbor): Jeez, sorry
+-SUCCESS-> Now make like my best friend and leaf! 
+
+COOK(Neighbor): Half a cookie!
+-SUCCESS-> Deal!

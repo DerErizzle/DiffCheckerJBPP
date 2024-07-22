@@ -1,0 +1,16 @@
+MAIN(Teacher): Hello, who is this?
+-HONEST-> It's me, your dutiful student.
+-PRANK-> This is the bank. We're calling to let you know your money is all gone.
+
+HONEST(Teacher): Oh hello, what's up?
+-FAILURE-> Nothing, I just wanted to say hi because I love school so much. Goodbye.
+
+PRANK(Teacher): What! How did that happen?!
+-MESSUP-> *giggle*
+-PRANKDONE->Your account was flagged because you have a bad S.T.I.N. key.
+
+MESSUP(Teacher): Wait, your voice is familiar...
+-SUCCESS->*hang up quickly*
+
+PRANKDONE(Teacher): I have a bad stinky... Wait... Hey!
+-SUCCESS-> Hahahaha! *hang up*

@@ -1,0 +1,27 @@
+{
+    "payload":[
+        { "id": "fast", "normalDurationInSec": 5.0, "extendedDurationInSec": 5.0 },
+
+        { "id": "askTheWheel", "normalDurationInSec": 41.0, "extendedDurationInSec": 61.0 },
+        { "id": "spinTheWheel", "normalDurationInSec": 12.0, "extendedDurationInSec": 20.0 },
+        { "id": "placeSlices", "normalDurationInSec": 20.0, "extendedDurationInSec": 30.0 },
+
+        { "id": "typingList", "normalDurationInSec": 45.0, "extendedDurationInSec": 60.0 },
+        { "id": "tappingList", "normalDurationInSec": 45.0, "extendedDurationInSec": 60.0 },
+        { "id": "numberTarget", "normalDurationInSec": 30.0, "extendedDurationInSec": 45.0 },
+        { "id": "matching", "normalDurationInSec": 35.0, "extendedDurationInSec": 35.0 },
+        { "id": "rapidFire", "normalDurationInSec": 30.0, "extendedDurationInSec": 30.0 },
+        { "id": "guessing", "normalDurationInSec": 45.0, "extendedDurationInSec": 45.0 },
+
+        { "id": "swapPoints", "normalDurationInSec": 20.0, "extendedDurationInSec": 30.0 },
+        { "id": "expand", "normalDurationInSec": 20.0, "extendedDurationInSec": 30.0 },
+        { "id": "replaceSlice", "normalDurationInSec": 20.0, "extendedDurationInSec": 30.0 },
+        { "id": "stealFromPlayerSlice", "normalDurationInSec": 20.0, "extendedDurationInSec": 30.0 },
+        { "id": "consensusChallenge", "normalDurationInSec": 20.0, "extendedDurationInSec": 30.0 },
+        { "id": "catchMeChallenge", "normalDurationInSec": 20.0, "extendedDurationInSec": 30.0 },
+        { "id": "rainbow", "normalDurationInSec": 30.0, "extendedDurationInSec": 30.0 },
+        { "id": "chainSteal", "normalDurationInSec": 20.0, "extendedDurationInSec": 30.0 },
+
+        { "id": "audienceReplaceSlices", "normalDurationInSec": 15.0, "extendedDurationInSec": 20.0 }
+    ]
+}

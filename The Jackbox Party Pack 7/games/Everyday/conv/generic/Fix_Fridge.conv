@@ -1,0 +1,17 @@
+MAIN(Fridge): Okay, so what kind of sound is your refrigerator making?
+-HURM-> HHuurrMM-Hrr-Hrrr
+-CHUNK-> Chunk-Chunk-Clang
+-BZZZ-> Bzzzzzzzzzz
+-FINE-> Nevermind... it's running fine
+
+HURM(Fridge): Just give it a kick
+-SUCCESS-> Works better than before!
+
+CHUNK(Fridge): You're going to need a new fridge
+-SUCCESS-> I'd better eat all the cold cuts.
+
+BZZZ(Fridge): Just give it a kick
+-SUCCESS-> It sounds... Better...
+
+FINE(Fridge): Then you'd better catch it. 
+-SUCCESS-> I got burned pretty good. 

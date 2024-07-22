@@ -1,0 +1,17 @@
+MAIN(Cute Student): No... I don't have a date for the dance. Why do you ask?
+-WANT-> Want to go with me?
+-GROUP-> Join our group!
+-MOCK-> Let's go and mock people.
+-SURVEY-> Just taking a survey. I'm not even going.
+
+SURVEY(Cute Student): Oh. okay.
+-SUCCESS-> Now I have to call my whole class to make my story believable.
+
+WANT(Cute Student): Yeah! Sounds fun!
+-SUCCESS-> Wait. Is being upfront with people good?
+
+GROUP(Cute Student): Yea... oh. okay.
+-SUCCESS-> Might have aimed too low
+
+MOCK(Cute Student): I love hating things!
+-SUCCESS-> We'll make it the most hateable night ever!

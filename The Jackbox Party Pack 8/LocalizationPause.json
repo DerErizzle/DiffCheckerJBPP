@@ -1,0 +1,37 @@
+{
+    "table":{
+    "en": {
+        "LANGUAGE_NAME": "English",
+        "LANGUAGE": "Language",
+        "PAUSE_PAUSED": "Paused",
+        "PAUSE_ARE_YOU_SURE": "Do you want to exit?",
+        "PAUSE_PROGRESS_LOST": "All current progress will be lost.",
+        "PAUSE_YES": "Exit",
+        "PAUSE_NO": "Resume",
+        "PAUSE_SELECT": "Select",
+        "PAUSE_CLOSE": "Close",
+        "PAUSE_RESUME": "Resume",
+        "PAUSE_RESUME_DESCRIPTION": "",
+        "PAUSE_SETTINGS": "Settings",
+        "PAUSE_SETTINGS_DESCRIPTION": "",
+        "PAUSE_RESTART": "Exit to Game Menu",
+        "PAUSE_RESTART_DESCRIPTION": "",
+        "PAUSE_BACK_TO_PACK": "Exit to Pack",
+        "PAUSE_BACK_TO_PACK_DESCRIPTION": "",
+        "PAUSE_EXIT_TO_DESKTOP": "Exit to Desktop",
+        "PAUSE_EXIT_TO_DESKTOP_DESCRIPTION": "",
+        "PAUSE_CONFIRMATION_YES": "Yes",
+        "PAUSE_CONFIRMATION_NO": "No",
+        "PAUSE_CONFIRMATION_EXIT": "Do you want to exit?",
+        "PAUSE_CONFIRMATION_RESTART": "Do you want to restart this game?",
+        "PAUSE_CONFIRMATION_BACK_TO_PACK": "Do you want to pick another game?",
+        "PAUSE_CHOOSE_ON_DEVICE": "Choose on your device",
+        "BACK": "Back",
+        "SELECT": "Select"
+    },
+    "fr": {},
+    "it": {},
+    "de": {},
+    "es": {}
+}
+}

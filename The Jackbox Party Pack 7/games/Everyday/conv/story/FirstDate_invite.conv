@@ -1,0 +1,17 @@
+MAIN(Riley): My little deviled egg said you wanted to meet me?
+-COME-> Sure! Come to dinner!
+-HAVE-> We'll have you for dinner!
+-GUESS-> Dinner...I guess?
+-NEVER-> Never call here again
+
+COME(Riley): Sure. Why not?
+-SUCCESS-> That was pleasant enough.
+
+HAVE(Riley): Haha sounds like you want to eat me.
+-SUCCESS-> Hmm... I need a new main course.
+
+GUESS(Riley): ...yes?
+-SUCCESS-> This is going to be a rough night.
+
+NEVER(Riley): This was a confusing interaction...
+-SUCCESS-> I have to make dinner to apologize.

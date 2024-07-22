@@ -1,0 +1,17 @@
+MAIN(AC): How bad is your problem?
+-SMOKE-> The A/C is smoking
+-COUCH-> My couch is melting
+-FLAME-> Our cat is aflame
+-COOL-> We're cool
+
+SMOKE(AC): It can wait until tomorrow
+-SUCCESS-> *cough* *cough*
+
+COUCH(AC): It can wait until tomorrow
+-SUCCESS-> There goes the ottoman
+
+FLAME(AC): Just one cat? It can wait
+-SUCCESS-> I'll get the hose.
+
+COOL(AC): Great! See ya never!
+-SUCCESS-> I'm so bad on the phone.

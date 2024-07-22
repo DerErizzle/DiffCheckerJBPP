@@ -1,0 +1,18 @@
+MAIN(Uncle Gorbo): My dearest family, what should we do now?
+-LATE-> It's getting pretty late...
+-RACE-> Race you to your house!
+-HIDE-> Play hide & never seek?
+-OTHER-> We should see other families.
+
+
+LATE(Uncle Gorbo): Fine! I'll stay the night!
+-SUCCESS-> I guess I'll sleep in the tub
+
+RACE(Uncle Gorbo): Let me stretch a bit!
+-SUCCESS-> This might work...
+
+HIDE(Uncle Gorbo): Let me stretch a bit!
+-SUCCESS-> This might work...
+
+OTHER(Uncle Gorbo): But I've already found the best one!
+-SUCCESS-> Curse this lovable nuisance!

@@ -1,0 +1,94 @@
+{
+    "table":{
+    "en": {
+        "BACK": "Back",
+        "SELECT": "Select",
+        "SETTINGS_TITLE": "Settings",
+        
+        "AUDIO_VIDEO_CATEGORY": "Audio/Video",
+        "CONTENT_CONTROL_CATEGORY": "Content Control",
+        "ACCESSIBILITY_CATEGORY": "Accessibility",
+        "GAMEPLAY_CATEGORY": "Gameplay",
+
+        "VOLUME": "Master Volume",
+        "VOLUME_DESCRIPTION": "Adjust the master volume.",
+
+        "VOLUME_HOST": "Host Volume",
+        "VOLUME_HOST_DESCRIPTION": "Adjust the volume for the host.",
+
+        "VOLUME_SFX": "SFX Volume",
+        "VOLUME_SFX_DESCRIPTION": "Adjust the volume for sound effects.",
+
+        "VOLUME_MUSIC": "Music Volume",
+        "VOLUME_MUSIC_DESCRIPTION": "Adjust the volume for the music.",
+
+        "FULL_SCREEN": "Full-screen Mode",
+        "FULL_SCREEN_DESCRIPTION": "Make the game full-screen.",
+
+        "FAMILY_FRIENDLY": "Family-Friendly",
+        "FAMILY_FRIENDLY_DESCRIPTION": "Turn ON to avoid the game's more provocative content.",
+
+        "PLAYER_CONTENT_FILTERING": "Profanity Filtering",
+        "PLAYER_CONTENT_FILTERING_OFF_DESCRIPTION": "All input is allowed.",
+        "PLAYER_CONTENT_FILTERING_HATE_SPEECH_DESCRIPTION": "Words used in hateful speech will cause input to be rejected. Profanity is allowed.",
+        "PLAYER_CONTENT_FILTERING_PROFANITY_DESCRIPTION": "Words used in hateful speech and profanity will cause input to be rejected.",
+        "PLAYER_CONTENT_FILTERING_OFF": "Off",
+        "PLAYER_CONTENT_FILTERING_HATE_SPEECH": "Moderate",
+        "PLAYER_CONTENT_FILTERING_PROFANITY": "Strict",
+
+        "MODERATION": "Moderation",
+        "MODERATION_DESCRIPTION": "Allow moderators to approve or reject input. Moderators join at mod.jackbox.tv.",
+        "MODERATION_PASSWORD": "Moderator password",
+
+        "FILTER_US_CENTRIC": "Filter US-Centric Content",
+        "FILTER_US_CENTRIC_DESCRIPTION": "Reduce number of US-centric prompts.",
+
+        "FILTER_PLAYERNAME": "Filter Player Name Prompts",
+        "FILTER_PLAYERNAME_DESCRIPTION": "Remove prompts that incorporate the names of the players.",
+
+        "SUBTITLES": "Subtitles",
+        "SUBTITLES_DESCRIPTION": "Display subtitles on the screen.",
+
+        "MOTION_SENSITIVITY": "Motion Sensitivity",
+        "MOTION_SENSITIVITY_DESCRIPTION": "Reduce motion sensitivity with less-animated backgrounds.",
+
+        "NO_TIMERS": "No Timers",
+        "NO_TIMERS_DESCRIPTION": "Disable timers where possible. Waits for all player input to advance.",
+
+        "EXTENDED_TIMERS": "Extended Timers",
+        "EXTENDED_TIMERS_DESCRIPTION": "Enable very long timers. Recommended only for streamed games.",
+
+        "AUDIENCE_MODE": "Audience",
+        "AUDIENCE_MODE_DESCRIPTION": "Turn ON to allow non-contestants to join and affect the game.",
+
+        "SKIP_TUTORIALS": "Skip Tutorials",
+        "SKIP_TUTORIALS_DESCRIPTION": "Skip tutorial sections.",
+        
+        "POSTGAME_SHARING": "Post-Game Sharing",
+        "POSTGAME_SHARING_DESCRIPTION": "Allow players to optionally share answers and scores from the game on social media.",
+
+        "PASSWORD_PROTECTED": "Passworded Game",
+        "PASSWORD_PROTECTED_DESCRIPTION": "Generate a password that players must enter to join the game.",
+        "PASSWORD_PROTECTED_LABEL": "Game Password",
+
+        "TWITCH_REQUIRED": "Require Twitch",
+        "TWITCH_REQUIRED_DESCRIPTION": "Require players to be logged into Twitch.",
+
+        "START_GAMEPAD": "Start Game from Controller Only",
+        "START_GAMEPAD_DESCRIPTION": "Games must be started with controller, not from player devices.",
+
+        "HIDE_ROOM_CODE": "Allow Room Code Hiding",
+        "HIDE_ROOM_CODE_DESCRIPTION": "Allow the on-screen room code to be hidden.",
+
+        "ALLOW_PLAYER_CONTENT_ON_SCREEN": "Allow Player Written Responses",
+        "ALLOW_PLAYER_CONTENT_ON_SCREEN_DESCRIPTION": "Players write their own questions and player written content can appear on screen.",
+
+        "MAX_PLAYERS": "Max. Players",
+        "MAX_PLAYERS_DESCRIPTION": "Number of players that can join the game before people are added to the audience.",
+        
+        "SETTINGS_WARNING_MENU": "",
+        "SETTINGS_WARNING_LOBBY": "Some settings cannot be changed after a room has been created.",
+        "SETTINGS_WARNING_PAUSE": "Some settings cannot be changed after a game has started."
+    }
+    }
+}

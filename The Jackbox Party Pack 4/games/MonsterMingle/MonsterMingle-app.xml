@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/15.0">
+    <id>com.jackboxgames.monstermingle.air</id>
+    <filename>MonsterMingle</filename>
+    <name>MonsterMingle</name>
+    <versionNumber>1.0</versionNumber>
+    <initialWindow>
+        <title>MonsterMingle</title>
+        <content>MonsterMingle.swf</content>
+        <autoOrients>false</autoOrients>
+        <fullScreen>false</fullScreen>
+        <visible>true</visible>
+        <renderMode>direct</renderMode>
+        <resizable>true</resizable>
+        <minimizable>false</minimizable>
+        <maximizable>false</maximizable>
+    </initialWindow>
+    <supportedProfiles>extendedDesktop</supportedProfiles>
+</application>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/15.0">
+    
+    <id>com.jackboxgames.overdrawn</id>
+    <versionNumber>1.0.0</versionNumber>
+    <filename>Overdrawn</filename>
+    <name>Overdrawn</name>
+
+    <initialWindow>
+        <title>Overdrawn</title>
+        <content>Overdrawn.swf</content>
+        <autoOrients>false</autoOrients>
+        <fullScreen>false</fullScreen>
+        <visible>true</visible>
+        <renderMode>direct</renderMode>
+        <resizable>true</resizable>
+        <minimizable>false</minimizable>
+        <maximizable>false</maximizable>
+    </initialWindow>
+    
+    <supportedProfiles>extendedDesktop</supportedProfiles>
+</application>

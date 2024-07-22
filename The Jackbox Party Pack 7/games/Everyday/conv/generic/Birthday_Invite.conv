@@ -1,0 +1,23 @@
+MAIN(Classmate): Hey, can I borrow your textbook? I dropped mine in mud.
+-ANGRY-> I guess my invitation to your birthday party also got dropped in mud.
+-SURE-> Of course! I would do anything for a friend. We are friends, right?
+
+ANGRY(Classmate): Oh sorry, it's kinda an exclusive party for just a few people.
+-BYE-> Well, my textbook is pretty exclusive too. Goodbye!
+-HINT-> If I was going to your party, I could bring my homework answers for you to copy...
+
+SURE(Classmate): Thanks or whatever. Now I gotta do this stupid homework.
+-BYE-> Yeah, guess so. Goodbye!
+-HINT-> You could copy my answers. Maybe I could give them to you at your birthday party...
+
+BYE(Classmate): Whatever, later loser.
+-FAILURE-> Scram, jerkface!
+-HINT-> Hold on. What if I let you copy my homework answers... at your party?
+
+HINT(Classmate): Ugh, all right. You can come, just don't act weird.
+-SUCCESS-> Thank you, BFF! I'll see you at the festivities!
+
+
+
+
+

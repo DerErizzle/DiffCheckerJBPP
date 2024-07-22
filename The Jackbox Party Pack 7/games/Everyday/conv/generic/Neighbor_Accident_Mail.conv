@@ -1,0 +1,17 @@
+MAIN(Neighbor): Hey Neighbor, I believe I accidentally got your mail. Here you go.
+-THANKS-> Thank you, good friend
+-KEEPIT-> You keep it
+-THIEF-> Thief!
+-REWARD-> Here's your reward!
+
+THANKS(Neighbor): No problem pal!
+-SUCCESS-> Good people are good
+
+KEEPIT(Neighbor): Thanks! There's coupons in here!
+-SUCCESS-> I was friendly, but missed out on great deals
+
+THIEF(Neighbor): How could you! I will keep this flyer to wipe away my tears!
+-SUCCESS-> Really uncalled for
+
+REWARD(Neighbor): Here's your reward!
+-SUCCESS-> The neighbor really needed that $2 in quarters

@@ -1,0 +1,13 @@
+MAIN(Boss): Why do you deserve a raise?
+-WORK-> I work hard
+-TATTLE-> I'll tattle on others
+-WANT-> Cuz I want it
+
+WORK(Boss): That's not how the system works, sorry.
+-SUCCESS-> The mortal world is weird
+
+TATTLE(Boss): Deal!
+-SUCCESS-> Haha...stupid others.
+
+WANT(Boss: I like your gumption. It's a deal!
+-SUCCESS-> So this is what being confident feels like

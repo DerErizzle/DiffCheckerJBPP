@@ -1,0 +1,18 @@
+MAIN(Doctor): Please describe your symptoms.
+-BURNS-> Burns when I sneeze
+-CLAM-> Skin is clammy and vibrating
+-HORNS-> My horns are wilting
+-PULSE-> Pulse rate in negatives
+
+
+BURNS(Doctor): Get eight hours of sleep.
+-SUCCESS-> Usual Friday night? Got it!
+
+CLAM(Doctor): Get eight hours of sleep.
+-SUCCESS-> Usual Friday night? Got it!
+
+HORNS(Doctor): Horns?
+-SUCCESS-> Oh forget it, I'll just get some sleep.
+
+PULSE(Doctor): That's impossible. Get some sleep.
+-SUCCESS-> You're impossible!

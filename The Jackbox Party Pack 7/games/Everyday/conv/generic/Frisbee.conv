@@ -1,0 +1,18 @@
+MAIN(Neighbor): Can I have my frisbee back?
+-NEVER-> Never!
+-YEP-> Yep!
+-MAYBE-> Maybe!
+-PLEASE-> Take it! It's cursed!
+
+
+NEVER(Neighbor): WAHHH!!!!
+-FAILURE-> Why do I push people away?
+
+YEP(Neighbor): Thank you!
+-SUCCESS-> I'm a hero.
+
+MAYBE(Neighbor): You can play with us.
+-SUCCESS-> It's a deal!
+
+PLEASE(Neighbor): I don't think it is.
+-SUCCESS-> Then how does it defy gravity?!?!

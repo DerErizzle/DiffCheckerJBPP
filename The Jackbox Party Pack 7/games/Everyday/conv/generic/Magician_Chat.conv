@@ -1,0 +1,22 @@
+Main(Magician): Hello, I'm a traveling magician! Would you like to pick a card? 
+-YES-> Sure would, I love picking things!
+-NO-> No thanks, my life is magical enough already.
+-REVERSE-> Yes, but first, let me wave my hand over this top hat...
+-NOTSURE-> I dunno, I'm feeling indecisive.
+
+
+YES(Magician): Fantastic! Now I'll just shuffle this and...is THIS your card? No? Nuts. 
+-SUCCESS-> Everyone had an ok time!
+
+
+NO(Magician): You're right. I should go back to my job at the bank. 
+-SUCCESS-> A win for financial security!
+
+
+REVERSE(Magician): That was amazing!! Could you teach me? I'd REALLY appreciate it!
+-FAILURE-> Now I'm stuck giving magic lessons.
+
+
+NOTSURE(Magician): What if I gave you $10? Would you watch the trick then?
+-SUCCESS-> My attention can't be bought! Goodbye forever!
+-YES-> Ten smackers?? Let's do this!

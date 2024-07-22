@@ -1,0 +1,23 @@
+MAIN(Neighbor): Hey pal, how's it going?
+-NORESPECT-> Kids have no respect these days!
+-PLENTYRESPECT> Kids have plenty of respect these days!
+
+NORESPECT(Neighbor): I hear ya, buddy.
+-NOTHINGHANDED-> Hmm, but I guess our kids work pretty hard.
+-EVERYTHINGHANDED-> These ungrateful kids have everything handed to them!
+
+EVERYTHINGHANDED(Neighbor): Whoa, you seem pretty steamed!
+-ANDONEMORETHING-> And one more thing, my kids are spoiled rotten!
+-THATSIT-> And one more thing, uh... um...
+
+PLENTYRESPECT(Neighbor): Glad to hear it?
+-FAILURE-> I guess I have no complaints about my kids.
+
+NOTHINGHANDED(Neighbor): You raised them well, I guess!
+-SUCCESS-> I don't have too many complaints about my kids, all things considered.
+
+THATSIT(Neighbor): Nothing else you want to say?
+-SUCCESS-> I guess I only had two complaints about my kids.
+
+ANDONEMORETHING(Neighbor): Yikes, you should probably see a family therapist!
+-SUCCESS-> I didn't ask for your advice.

@@ -1,0 +1,58 @@
+{
+    "payload":{
+        "baseStartingPot": 1000,
+        "startingPotIncreasePerRound": 1000,
+        "basePotIncreasePerRevolution":20,
+        "potIncreasePerRevolutionIncreasePerRound":7,
+        "finalSpinPotIncreaseFactor": 1.5,
+        "pointsRequiredToWinGame": 20000,
+        "numBadSlicesOnWinWheel": [8, 6, 4, 2, 1],
+        "playTimerAudioWhenLessThanSec": 7.0,
+        
+        "sliceSize": 20,
+        "sliceSizeMiniWheel": 30,
+        "playerSliceMultiplierIncreases": [1.0, 1.0, 0.5, 0.25],
+        "pointsSliceAmounts":[
+            [2000],
+            [2000,3000,4000],
+            [3000,4000,5000]
+        ],
+        "badSplitAmounts":[2000, 4000, 6000],
+
+        "placeExtraSlicesNumSlices": 4,
+        "stealFromPlayerSliceAmount": 3000,
+        "pointsForPlayerSliceAmount": 1000,
+        
+        "tappingListChoicesCount": 12,
+        "matchingNumAnswers": 10,
+        "matchingFreezeTimeInSec": 2.5,
+        "matchingCycleTimeInSec": 5.0,
+        
+        "rapidFireNumChoices": 2,
+        "rapidFireFreezeTimeInSec": 2.5,
+        "rapidFireTimeBeforePreviewRevealInSec": 3.0,
+        "rapidFireTimeBeforeNextPreviewInSec": 2.5,
+        
+        "pointsForTriviaPlaceIndex": {
+            "2": [3000, 1500],
+            "3": [3000, 1500, 750],
+            "4": [3000, 1500, 1000, 500],
+            "5": [3000, 1500, 1000, 750, 500],
+            "6": [3000, 1500, 1000, 800, 600, 400],
+            "7": [3000, 1500, 1000, 800, 600, 400, 200],
+            "8": [3000, 1500, 1000, 800, 600, 400, 200, 100]
+        },
+
+        "audienceReplaceSlicesNumSlices": 3,
+        "audienceNeighborNumPoints": 3000,
+        "audienceSliceCountNumPoints": 3000,
+        
+        "hostAudioMeterData": {
+            "rmsLevelMax": 0.1,
+            "min": 0.0,
+            "max": 1.0,
+            "idle": 0.0,
+            "maxDecay": 0.2
+        }
+    }
+}

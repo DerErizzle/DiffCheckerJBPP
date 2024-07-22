@@ -1,0 +1,49 @@
+MAIN(Aunt Hecuba): Hello? Who's calling?
+-GRANDMA-> You're invited to Grandma Pazuzu's party
+-MURDER-> You're invited to a 1940's themed murder mystery
+-SCAM-> You're missing out on fantastic long distance savings!
+
+GRANDMA(Aunt Hecuba): Pazuzu? I hate that old bag! Forget it!
+-REASON-> Did I say Pazuzu? I meant...someone you like?
+-PIECE-> Then come to the party and giver her a piece of your mind!
+
+REASON(Aunt Hecuba): Yeah right. Give me one good reason I should go to this lame party.
+-CAKE-> Free cake
+-PIECE-> You can finally give her a piece of your mind
+-TWENTY-> I'll give you 20 bucks
+
+CAKE(Aunt Hecuba): It's not much, but I'll take it. I'll be there.
+-SUCCESS-> Whatever
+
+PIECE(Aunt Hecuba): Ha! Now you're speaking my language. I'll be there.
+-SUCCESS-> I've already stopped listening
+
+TWENTY(Aunt Hecuba): Make it $50.
+-FINE-> Ugh. Fine.
+-NOWAY-> No way!
+
+NOWAY(Aunt Hecuba): Then forget it!
+-FINE-> Wait! I'll pay!
+-FINE-> Wait! I'll pretend I'm going to pay!
+
+
+FINE(Aunt Hecuba): Hot dog! I'll be there!
+-SUCCESS-> This better be worth it.
+
+MURDER(Aunt Hecuba): I hate those gimmicky things! It's always the butler anyway!
+-GRANDMA-> Just kidding, it's Grandma Pazuzu's birthday
+-ESCAPEROOM-> What about like an escape room instead?
+
+ESCAPEROOM(Aunt Hecuba): I don't know what that is.
+-GRANDMA-> Nevermind. I'm trying to invite you to Grandma Pazuzu's birthday.
+
+SCAM(Aunt Hecuba): Oh really? Tell me more!
+-BIGBAND-> BigBand Internet Service has a plan that's right for everyone!
+-GRANDMA-> Just kidding, it's Grandma Pazuzu's birthday
+
+BIGBAND(Aunt Hecuba): What about data caps?
+-LIMITS-> While some plans have limits, most users never hit them.
+-GRANDMA-> Nevermind. I'm trying to invite you to Grandma Pazuzu's birthday.
+
+LIMITS(Aunt Hecuba): That's what they all say! Nice try, scammer! *CLICK*
+-SUCCESS-> I'll text her about the party later.

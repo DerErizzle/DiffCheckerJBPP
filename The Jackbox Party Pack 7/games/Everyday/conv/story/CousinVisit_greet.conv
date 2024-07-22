@@ -1,0 +1,13 @@
+MAIN(Cousin Rompo): Where should I put my bag?
+-TOSS-> Toss it anywhere
+-DOOR-> Leave it on doorstep
+-NEVER-> Never take it off. 
+
+TOSS(Cousin Rompo): *Chucks it into glass case*
+-SUCCESS-> I did say anywhere
+
+DOOR(Cousin Rompo): I'd better feed it first then.
+-SUCCESS-> Feed what now?
+
+NEVER(Cousin Rompo): Okay, I have to avoid flames then.
+-SUCCESS-> ...what's in there?

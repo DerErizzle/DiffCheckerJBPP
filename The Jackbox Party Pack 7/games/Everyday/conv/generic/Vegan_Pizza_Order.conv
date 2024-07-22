@@ -1,0 +1,17 @@
+MAIN(Pizza): This is Pepper-Phonies Vegan Pizza. What's your order?
+-WHEAT-> Mushrooms & Wheatballs
+-CANADIAN-> Canadian Fackon
+-CHEESE-> Four Cheese-ish
+-GROUNDBEET-> Ground Beet
+
+WHEAT(Pizza): Great! It'll be ready in half an hour
+-SUCCESS-> The kids can scrape off the mushrooms.
+
+CANADIAN(Pizza): Great! It'll be ready in half an hour
+-SUCCESS-> Healthy, delicious and cultural. 
+
+CHEESE(Pizza): Great! It'll be ready in half an hour
+-SUCCESS-> They didn't really nail any of the "cheeses"
+
+GROUNDBEET(Pizza): Great! It'll be ready in half an hour
+-SUCCESS-> Nutrition's more important than flavor, right?

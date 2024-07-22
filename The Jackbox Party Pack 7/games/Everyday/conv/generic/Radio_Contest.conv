@@ -1,0 +1,24 @@
+MAIN(Radio Host): You're on Marty and the Fuzz Drive-Time Radio! You're just a few questions away from winning a new washer-dryer!
+-EXCITED-> Woo, yeah!
+-EXCITED-> Yeah, woo!
+
+EXCITED(Radio Host): What Australian animal is known for jumping?
+-WRONG-> Easy, it's a dog.
+-WRONG-> Horse. Gotta be horse.
+-KANGAROO-> Kangaroo?
+
+KANGAROO(Radio Host): Correct! Next question, H20 is the chemical formula for what liquid?
+-WRONG-> Ketchup!
+-WRONG-> Um...vinegar?
+-WATER-> Damn it, I know this... um... ooh, it's water!
+
+WATER(Radio Host): Last question! According to myth, which horned monsters live in in a fiery subterranean underworld?
+-WIN-> Devils.
+-WIN-> Ooh tough one. Maybe it's devils.
+-WIN-> Just a wild guess, but I'm gonna say devils.
+
+WRONG(Radio Host): Wow, can't believe you got that wrong. You lose.
+-FAILURE-> Damn it, I really wanted that washer-dryer.
+
+WIN(Radio Host): Congratulations, we have a winner!
+-SUCCESS-> Finally, my own washer-dryer I don't have to share with the family!

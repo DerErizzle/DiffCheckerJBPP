@@ -1,0 +1,18 @@
+MAIN(Kids): What are we doing tonight!?!!
+-NOTHING-> Nothing. Go to bed!
+-SNACKS-> Snack eating contest
+-HAIR-> Makeovers and amateur haircuts
+-MATCHES-> Whose got matches!?
+
+
+NOTHING(Kids): Let's break stuff!
+-SUCCESS-> ...we may need activities
+
+SNACKS(Kids): YAAYYY!!!!
+-SUCCESS-> To the kitchen!
+
+HAIR(Kids): YAAYYY!!!
+-SUCCESS-> Let's put down tarps!
+
+MATCHES(Kids): We all do!!!
+-SUCCESS-> To the secret firework stash!

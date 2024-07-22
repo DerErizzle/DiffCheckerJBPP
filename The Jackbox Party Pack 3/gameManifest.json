@@ -1,0 +1,21 @@
+{
+    "gameName": "The Jackbox Party Pack 3",
+    "mainSwf": "TJPPLoader.swf",
+    "pauseSwf": "PauseDialog.swf",
+    "managerSwf": "Manager.swf",
+    "fallbackSwf": "games/Picker/Picker.swf",
+    "pauseStyle": "buses",
+
+    "win":{
+        "sentryDsn": "https://e49f4709b72b462d904be2987769dde6@o420318.ingest.sentry.io/6038141"
+    },
+
+    "steam": {
+        "appId": 434170
+    },
+
+    "samsung":{
+        "ads":[
+        ]
+    }
+}

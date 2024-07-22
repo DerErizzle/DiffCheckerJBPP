@@ -1,0 +1,13 @@
+MAIN(Witness): I saw the ghost! It was terrifying!
+-DO-> What did it do?
+-LOOK-> How did it look?
+-SINGLE-> Did it seem single? Asking for a friend.
+
+DO(Witness): It walked around! Slowly! And kind of groaned!
+-SUCCESS-> My first suspect is my grandpa...
+
+LOOK(Witness): Tattered clothes, scraggly beard, pale skin...
+-SUCCESS-> First clue: This ghost needs a makeover.
+
+SINGLE(Witness): Weirdly, I did notice a wedding ring. It looked exactly like the one Old man Oldman wears...
+-SUCCESS-> This is a total dead end.

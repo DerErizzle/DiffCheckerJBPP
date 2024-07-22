@@ -1,0 +1,17 @@
+MAIN(Boss): Why can't you come to work today?
+-SICK-> I feel a little sick
+-HEAD-> My head is killing me
+-PARTY-> I partied too hard
+-CAUGHT-> I'm caught in a bear trap
+
+SICK(Boss): Hmmm, too vague for me to investigate
+-SUCCESS-> Perfect! I mean... cough
+
+HEAD(Boss): Hmm, too vague for me to investigate
+-SUCCESS-> Perfect! I mean... ouch
+
+PARTY(Boss): Then this counts as a vacation day
+-SUCCESS-> I hate mortal society
+
+CAUGHT(Boss): Okay, but you only have 2 bear trap days left.
+-SUCCESS-> I'll hopefully be free tomorrow... *starts gnawing*

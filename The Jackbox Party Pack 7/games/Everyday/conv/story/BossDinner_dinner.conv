@@ -1,0 +1,31 @@
+MAIN(Boss): What a lovely meal.
+-POLITE-> Thank you, you're too kind.
+-CREEPY-> I made it just for you, my perfect boss!
+-BIRD1-> Not as lovely as the rare ivory-billed woodpecker! I'm way into birds by the way.
+
+BIRD1(Boss): Oh, a fellow birder! Did you notice that purple finch nesting in your front yard?
+-OFCOURSE-> Of course I did!
+-CORRECTBOSS-> Actually, I believe you'll find that's a simple house finch.
+-HONEST-> To be honest, I know nothing about birds...
+
+OFCOURSE(Boss): Fooled you! That's a common rosefinch! As usual, I am the birdmaster!
+-SUCCESS-> My thoughts exactly.
+
+CORRECTBOSS(Boss): Oh my... You're right.
+-SUCCESS-> I hope she doesn't cry.
+
+HONEST(Boss): I respect your honesty, but your lack of bird knowledge sickens me.
+-SUCCESS-> It's a mixed victory.
+
+POLITE(Boss): You're right, I am too kind. Remind me to lower your salary.
+-SUCCESS-> I will not remind her.
+
+CREEPY(Boss): Uh, that's a little creepy.
+-JOKING-> Haha only joking!
+-DOUBLEDOWN-> May I paint you?
+
+JOKING(Boss): Okay...
+-SUCCESS-> Saved it!
+
+DOUBLEDOWN(Boss): Only executive vice presidents and above may paint me.
+-SUCCESS-> Never hurts to ask.

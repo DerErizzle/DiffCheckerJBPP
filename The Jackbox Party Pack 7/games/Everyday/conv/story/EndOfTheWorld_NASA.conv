@@ -1,0 +1,17 @@
+MAIN(NASA): How can we help you?
+-AST-> There's an asteroid!
+-DIE-> We're going to die!
+-SPACE-> Space is bad!
+-BOOM-> Sky go boom boom!
+
+AST(NASA): Um...I'm just an intern
+-SUCCESS-> How did I get this number?
+
+DIE(NASA): Ahhhh!!!!
+-SUCCESS-> At least I got my point across.
+
+SPACE(NASA): We disagree
+-SUCCESS-> Good. I've opened a dialogue. 
+
+BOOM(NASA): I understand completely
+-SUCCESS-> I speak science.

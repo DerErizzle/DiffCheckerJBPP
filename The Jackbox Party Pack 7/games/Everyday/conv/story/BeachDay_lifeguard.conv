@@ -1,0 +1,17 @@
+MAIN(Neighbor): What do I have to do as the lifeguard?
+-PROTECT-> Protect the children
+-YELL-> Yell at the children
+-MOCK-> Mock the children
+-WHISTLE-> Just whistle
+
+PROTECT(Neighbor): Sounds good!
+-SUCCESS-> Be our stalwart guardian!
+
+YELL(Neighbor): Sounds good!
+-SUCCESS-> Here's a megaphone
+
+MOCK(Neighbor): Um... I'll do it without the mocking...
+-SUCCESS-> Will nobody roast these disobedient kids?!?!?
+
+WHISTLE(Neighbor): Sounds good!
+-SUCCESS-> Be our high-pitched guardian!

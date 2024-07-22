@@ -1,0 +1,17 @@
+MAIN(Neighbor): Hi, I didn't get my paper this morning. Did you see it?
+-YES-> Yes. Here!
+-NO-> No. I hate news
+-PAPERBOY-> Darn Paperboy!
+-STOLEPAPER-> YOU stole MY paper!
+
+YES(Neighbor): Oh Thanks!
+-SUCCESS-> Good. They weren't suspicious at all...
+
+NO(Neighbor): Then what's that?
+-SUCCESS-> My folded newspaper hat has given me away
+
+PAPERBOY(Neighbor): I hate them too!
+-SUCCESS-> I've made a new ally in my war against paperboy
+
+STOLEPAPER(Neighbor): You're right. Here ya go. 
+-SUCCESS-> I've gained a paper, but lost a neighbor.

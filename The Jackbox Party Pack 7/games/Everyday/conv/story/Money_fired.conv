@@ -1,0 +1,17 @@
+MAIN(Manager): Why did you miss your shift?
+-CAR-> Car trouble....?
+-TIME-> Daylight savings time...?
+-WOLF-> Fleeing wild wolves...?
+-LIKE-> I don't like work....?
+
+CAR(Manager): I respect your honesty, but you're fired.
+-SUCCESS-> ...fair.
+
+TIME(Manager): I respect your honesty, but you're fired.
+-SUCCESS-> ... fair.
+
+WOLF(Kids): You're clearly lying... you're fired!
+-SUCCESS-> Fine! Let the wolves win!
+
+LIKE(Kids): Good news! You never have to do it again!
+-SUCCESS-> ...I wonder if they'll keep paying me?

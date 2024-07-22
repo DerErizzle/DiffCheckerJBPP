@@ -1,0 +1,26 @@
+MAIN(Grandma): What?
+-POLITE-> Hello grandma! Are you having a good birthday?
+-OLD-> So what's it like being 666?
+-INSULT-> Still kickin' ya old bag of bones?
+
+POLITE(Grandma): No! It's too cold! Where's the soup I like? In my day, there was a little thing called respect!
+-RANT2-> Well, I...
+-RANT2-> Soup?
+-INSULT-> In your day, Lucifer was in diapers.
+
+RANT2(Grandma): Nobody gets dressed up for airplanes anymore! The television is making the young people soft! Vote for Ike!
+-RANT3-> Actually, that's not...
+-RANT3-> Ike did give us the highways...
+-INSULT-> You smell like feet, Grandma.
+
+RANT3(Grandma): Dancing today is too lewd! In my day you didn't need an egg to make an instant cake! I demand social safety nets, but only when they benefit me personally!
+-POLITE-> Sure, but other than that, you're doing good?
+-SUCCESS->(Quietly back away and call this a success)
+
+OLD(Grandma): Terrible! My back aches! My teeth are full of holes! My horns are brittle and flaky! My eye gunk is weighing down one side of my head!
+-RANT2-> Uh, I'm sorry to hear that.
+-INSULT-> Oh nobody cares.
+
+INSULT(Grandma): What did you say?!
+-RANT2-> I said, tell me about all your wonderful boring complaints!
+-SUCCESS-> Forget this, I'm getting some cake.

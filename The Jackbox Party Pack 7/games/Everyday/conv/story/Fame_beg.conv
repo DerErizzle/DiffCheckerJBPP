@@ -1,0 +1,10 @@
+MAIN(Producer): Hello?
+-NORMAL-> I would like to respectfully request a second audition.
+-CRAZY-> Uh this is the director. I think we should reconsider that attractive devil for 'Cop #2'!
+-CRAZY-> I AM 'COP #2'! I LIVE AND BREATH 'COP #2'!
+
+NORMAL(Producer): I have no idea who this is is. Goodbye.
+-SUCCESS-> If she doesn't remember me, I've still got a shot!
+
+CRAZY(Producer): Delete this number.
+-SUCCESS-> I didn't hear a 'no'!

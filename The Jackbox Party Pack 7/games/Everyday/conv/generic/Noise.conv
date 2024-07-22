@@ -1,0 +1,18 @@
+MAIN(Neighbor): Your music is a little loud, don't ya think?
+-WHAT-> WHAT!?
+-SORRY-> SORRY!
+-JAM-> WANNA JAM?
+-BAD-> IT KILLS THE BAD THOUGHTS!
+
+
+WHAT(Neighbor): I'm going to move
+-SUCCESS-> WHAT?!?!?
+
+SORRY(Neighbor): IT'S OKAY!
+-SUCCESS-> I'M GLAD WE CAN TALK!
+
+JAM(Neighbor): ...SURE!!!
+-SUCCESS-> GRAB A LUTE AND LET'S GO!
+
+BAD(Neighbor): Wanna talk?
+-SUCCESS-> ...yes, please.

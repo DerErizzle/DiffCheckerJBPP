@@ -1,0 +1,82 @@
+{
+  "games": [
+    {
+      "name":"Quiplash2",
+      "mainSwf": "Quiplash2.swf",
+      "players": "3-8",
+      "family": true,
+      "audience": true,
+      "familyOptional": true,
+      "description":"INFO_DESCRIPTION_GAME_3",
+      "menu":"MENU_GAME_NAME_3",
+      "value":2,
+      "video":"videos/quiplash2",
+      "enabled": true
+    },
+    {
+      "name":"triviadeath",
+      "mainSwf": "triviadeath.swf",
+      "players": "1-8",
+      "family": false,
+      "audience": true,
+      "familyOptional": false,
+      "description":"INFO_DESCRIPTION_GAME_1",
+      "menu":"MENU_GAME_NAME_1",
+      "value":0,
+      "video":"videos/triviadeath",
+      "enabled": true
+    },
+    {
+      "name":"PollPosition",
+      "mainSwf": "PollPosition.swf",
+      "players": "2-8",
+      "family": true,
+      "audience": true,
+      "familyOptional": true,
+      "description":"INFO_DESCRIPTION_GAME_2",
+      "menu":"MENU_GAME_NAME_2",
+      "value":1,
+      "video":"videos/pollposition",
+      "enabled": true
+    },
+    {
+      "name":"FakinIt",
+      "mainSwf": "FakinIt.swf",
+      "players": "3-6",
+      "family": true,
+      "audience": true,
+      "familyOptional": true,
+      "description":"INFO_DESCRIPTION_GAME_4",
+      "menu":"MENU_GAME_NAME_4",
+      "value":3,
+      "video":"videos/fakinit",
+      "enabled": true
+    },
+    {
+      "name":"AwShirt",
+      "mainSwf": "AwShirt.swf",
+      "players": "3-8",
+      "family": true,
+      "audience": true,
+      "familyOptional": false,
+      "description":"INFO_DESCRIPTION_GAME_5",
+      "menu":"MENU_GAME_NAME_5",
+      "value":4,
+      "video":"videos/awshirt",
+      "enabled": true
+    },
+    {
+      "name":"Disabled",
+      "mainSwf": "",
+      "players": "???",
+      "family": false,
+      "audience": false,
+      "familyOptional": false,
+      "description":"INFO_DESCRIPTION_GAME_DISABLED",
+      "menu":"MENU_GAME_NAME_DISABLED",
+      "value":5,
+      "video":"videos/disabled",
+      "enabled": false
+    }
+  ]
+}

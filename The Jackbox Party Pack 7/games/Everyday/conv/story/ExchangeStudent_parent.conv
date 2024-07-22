@@ -1,0 +1,17 @@
+MAIN(Parent): What exactly is your complaint about my child?
+-NICE-> They're TOO nice
+-CLEAN-> House is TOO clean
+-CHECK-> My checkbook is TOO balanced
+-FEAR-> I fear change
+
+NICE(Parent): That darn kid. I'll talk to them.
+-SUCCESS-> So it's hereditary. 
+
+CLEAN(Parent): I didn't realize that was a problem
+-SUCCESS-> I can't eat ribs on the couch anymore!
+
+CHECK(Parent): I didn't realize that was a problem.
+-SUCCESS> It's taking all the fun mystery out of our finances!
+
+FEAR(Parent): ...I can't help with that.
+-SUCCESS-> Good! I'm tired of your family improving my life!

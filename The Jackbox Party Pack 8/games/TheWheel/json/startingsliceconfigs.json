@@ -1,0 +1,627 @@
+{
+    "payload":[
+        { 
+            "id": "twoPlayerAudience",
+            "isValid": "players.length == 2 AND audienceData.numSlices > 0",
+            "slices":[
+                { "pos": 0,   "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 60,  "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 1" },
+                { "pos": 140, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 2" },
+                { "pos": 220, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 3" },
+                { "pos": 300, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 0" }
+            ]
+        },
+        { 
+            "id": "twoPlayerNoAudience",
+            "isValid": "players.length == 2 AND audienceData.numSlices == 0",
+            "slices":[
+                { "pos": 0,   "type": "reserved", "data": { "reservedFor": "bonus"} }
+            ]
+        },		
+        { 
+            "id": "roundOneAudienceA",
+            "isValid": "numGamesPlayedWithSamePlayers == 1 AND roundNum == 1 AND audienceData.numSlices > 0",
+            "slices":[
+                { "pos": 0,   "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 60,  "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 1" },
+                { "pos": 140, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 2" },
+                { "pos": 220, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 3" },
+                { "pos": 300, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 0" }
+            ]
+        },
+        { 
+            "id": "lowPlayerCountAudienceMultipier",
+            "isValid": "numGamesPlayedWithSamePlayers == 1 AND roundNum >= 2 AND players.length <= 4 AND audienceData.numSlices > 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 60, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 1" },
+                { "pos": 100, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 140, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 2" },
+                { "pos": 220, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 3" },
+                { "pos": 260, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 300, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 0" }
+            ]
+        },
+        { 
+            "id": "lowPlayerCountAudienceNeighbor",
+            "isValid": "numGamesPlayedWithSamePlayers == 1 AND roundNum >= 2 AND players.length <= 4 AND audienceData.numSlices > 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 60, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 1" },
+                { "pos": 120, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 2" },
+                { "pos": 180, "type": "reserved", "data": { "reservedFor": "neighbor"} },
+                { "pos": 240, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 3" },
+                { "pos": 300, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 0" }
+            ]
+        },
+        { 
+            "id": "highPlayerCountAudienceMultipier",
+            "isValid": "numGamesPlayedWithSamePlayers == 1 AND roundNum >= 2 AND players.length > 4 AND audienceData.numSlices > 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 40, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 1" },
+                { "pos": 80, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 140, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 2" },
+                { "pos": 180, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 220, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 3" },
+                { "pos": 280, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 320, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 0" }
+            ]
+        },
+        { 
+            "id": "highPlayerCountAudienceNeighbor",
+            "isValid": "numGamesPlayedWithSamePlayers == 1 AND roundNum >= 2 AND players.length > 4 AND audienceData.numSlices > 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 40, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 1" },
+                { "pos": 80, "type": "reserved", "data": { "reservedFor": "neighbor"} },
+                { "pos": 140, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 2" },
+                { "pos": 220, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 3" },
+                { "pos": 280, "type": "reserved", "data": { "reservedFor": "neighbor"} },
+                { "pos": 320, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 0" }
+            ]
+        },
+        { 
+            "id": "samePlayersLowPlayerCountAudienceNeighbor",
+            "isValid": "numGamesPlayedWithSamePlayers > 1 AND players.length <= 4 AND audienceData.numSlices > 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 60, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 1" },
+                { "pos": 120, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 2" },
+                { "pos": 180, "type": "reserved", "data": { "reservedFor": "neighbor"} },
+                { "pos": 240, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 3" },
+                { "pos": 300, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 0" }
+            ]
+        },
+        { 
+            "id": "samePlayersLowPlayerCountAudienceMultipier",
+            "isValid": "numGamesPlayedWithSamePlayers > 1 AND players.length <= 4 AND audienceData.numSlices > 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 60, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 1" },
+                { "pos": 100, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 140, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 2" },
+                { "pos": 220, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 3" },
+                { "pos": 260, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 300, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 0" }
+            ]
+        },
+        { 
+            "id": "samePlayersHighPlayerCountAudienceNeighbor",
+            "isValid": "numGamesPlayedWithSamePlayers > 1 AND players.length > 4 AND audienceData.numSlices > 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 40, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 1" },
+                { "pos": 80, "type": "reserved", "data": { "reservedFor": "neighbor"} },
+                { "pos": 140, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 2" },
+                { "pos": 220, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 3" },
+                { "pos": 280, "type": "reserved", "data": { "reservedFor": "neighbor"} },
+                { "pos": 320, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 0" }
+            ]
+        },
+        { 
+            "id": "samePlayersHighPlayerCountAudienceMultipier",
+            "isValid": "numGamesPlayedWithSamePlayers > 1 AND players.length > 4 AND audienceData.numSlices > 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 40, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 1" },
+                { "pos": 80, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 140, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 2" },
+                { "pos": 180, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 220, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 3" },
+                { "pos": 280, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 320, "type": "reserved", "data": { "reservedFor": "audience"}, "isValid": "audienceData.numSlices > 0" }
+            ]
+        },		
+        { 
+            "id": "roundOneMultiplier",
+            "isValid": "numGamesPlayedWithSamePlayers == 1 AND roundNum == 1 AND audienceData.numSlices == 0",
+            "slices":[
+                { "pos": 0,   "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 180, "type": "multiplier", "data": { "multiplier": 2.0 } }
+            ]
+        },
+        { 
+            "id": "roundOneNeighbor",
+            "isValid": "numGamesPlayedWithSamePlayers == 1 AND roundNum == 1 AND audienceData.numSlices == 0",
+            "slices":[
+                { "pos": 0,   "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 180, "type": "reserved", "data": { "reservedFor": "neighbor"} }
+            ]
+        },		
+        { 
+            "id": "lowPlayerCountMuliplier",
+            "isValid": "numGamesPlayedWithSamePlayers == 1 AND roundNum >= 2 AND players.length <= 4 AND audienceData.numSlices == 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 80, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 280, "type": "multiplier", "data": { "multiplier": 2.0 } }
+            ]
+        },
+        { 
+            "id": "lowPlayerCountNeighbor",
+            "isValid": "numGamesPlayedWithSamePlayers == 1 AND roundNum >= 2 AND players.length > 4 AND audienceData.numSlices == 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 180, "type": "reserved", "data": { "reservedFor": "neighbor"} }
+            ]
+        },
+        { 
+            "id": "highPlayerCountMultiplier",
+            "isValid": "numGamesPlayedWithSamePlayers == 1 AND roundNum >= 2 AND players.length > 4 AND audienceData.numSlices == 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 80, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 180, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 280, "type": "multiplier", "data": { "multiplier": 2.0 } }
+            ]
+        },
+        { 
+            "id": "highPlayerCountNeighbor",
+            "isValid": "numGamesPlayedWithSamePlayers == 1 AND roundNum >= 2 AND players.length > 4 AND audienceData.numSlices == 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 80, "type": "reserved", "data": { "reservedFor": "neighbor"} },
+                { "pos": 280, "type": "reserved", "data": { "reservedFor": "neighbor"} }
+            ]
+        },
+        { 
+            "id": "samePlayersLowPlayerCountMultiplier",
+            "isValid": "numGamesPlayedWithSamePlayers > 1 AND players.length <= 4 AND audienceData.numSlices == 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 80, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 280, "type": "multiplier", "data": { "multiplier": 2.0 } }
+            ]
+        },
+        { 
+            "id": "samePlayersLowPlayerCountNeighbor",
+            "isValid": "numGamesPlayedWithSamePlayers > 1 AND players.length <= 4 AND audienceData.numSlices == 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 180, "type": "reserved", "data": { "reservedFor": "neighbor"} }
+            ]
+        },		
+        { 
+            "id": "samePlayersHighPlayerCountMultiplier",
+            "isValid": "numGamesPlayedWithSamePlayers > 1 AND players.length > 4 AND audienceData.numSlices == 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 80, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 180, "type": "multiplier", "data": { "multiplier": 2.0 } },
+                { "pos": 280, "type": "multiplier", "data": { "multiplier": 2.0 } }
+            ]
+        },	
+        { 
+            "id": "samePlayersHighPlayerCountNeighbor",
+            "isValid": "numGamesPlayedWithSamePlayers > 1 AND players.length > 4 AND audienceData.numSlices == 0",
+            "slices":[
+                { "pos": 0, "type": "reserved", "data": { "reservedFor": "bonus"} },
+                { "pos": 80, "type": "reserved", "data": { "reservedFor": "neighbor"} },
+                { "pos": 280, "type": "reserved", "data": { "reservedFor": "neighbor"} }
+            ]
+        },
+        { 
+            "id": "intro2Players",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,     "type": "player", 	"data": { "playerIndex": 1 } },
+                { "pos": 20,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 40,    "type": "player", 	"data": { "playerIndex": 0 } },
+                { "pos": 60,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 80,    "type": "player", 	"data": { "playerIndex": 1 } },
+                { "pos": 100,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 120,   "type": "player", 	"data": { "playerIndex": 0 } },
+                { "pos": 140,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 160,   "type": "player", 	"data": { "playerIndex": 1 } },
+                { "pos": 180,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 200,   "type": "player", 	"data": { "playerIndex": 0 } },
+                { "pos": 220,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 240,   "type": "player", 	"data": { "playerIndex": 1 } },
+                { "pos": 260,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 280,   "type": "player", 	"data": { "playerIndex": 0 } },
+                { "pos": 300,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 320,   "type": "player", 	"data": { "playerIndex": 1 } },
+                { "pos": 340,   "type": "reserved", "data": { "reservedFor": "nothing"} }
+            ]
+        },
+        { 
+            "id": "intro3Players",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,     "type": "player",   "data": { "playerIndex": 0 } },
+                { "pos": 20,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 40,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 60,    "type": "player",   "data": { "playerIndex": 1 } },
+                { "pos": 80,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 100,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 120,   "type": "player",   "data": { "playerIndex": 2 } },
+                { "pos": 140,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 160,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 180,   "type": "player",   "data": { "playerIndex": 0 } },
+                { "pos": 200,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 220,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 240,   "type": "player",   "data": { "playerIndex": 1 } },
+                { "pos": 260,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 280,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 300,   "type": "player",   "data": { "playerIndex": 2 } },
+                { "pos": 320,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 340,   "type": "reserved", "data": { "reservedFor": "nothing"} }
+            ]
+        },
+        { 
+            "id": "intro4Players",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,     "type": "player", 	"data": { "playerIndex": 0 } },
+                { "pos": 20,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 40,    "type": "player", 	"data": { "playerIndex": 1 } },
+                { "pos": 60,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 80,    "type": "player", 	"data": { "playerIndex": 2 } },
+                { "pos": 100,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 120,   "type": "player", 	"data": { "playerIndex": 3 } },
+                { "pos": 140,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 160,   "type": "player", 	"data": { "playerIndex": 0 } },
+                { "pos": 180,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 200,   "type": "player", 	"data": { "playerIndex": 1 } },
+                { "pos": 220,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 240,   "type": "player", 	"data": { "playerIndex": 2 } },
+                { "pos": 260,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 280,   "type": "player", 	"data": { "playerIndex": 3 } },
+                { "pos": 300,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 320,   "type": "player", 	"data": { "playerIndex": 1 } },
+                { "pos": 340,   "type": "reserved", "data": { "reservedFor": "nothing"} }
+            ]
+        },
+        { 
+            "id": "intro5Players",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,     "type": "player",   "data": { "playerIndex": 0 } },
+                { "pos": 20,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 40,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 60,    "type": "player",   "data": { "playerIndex": 1 } },
+                { "pos": 80,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 100,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 120,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 140,   "type": "player",   "data": { "playerIndex": 2 } },
+                { "pos": 160,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 180,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 200,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 220,   "type": "player",   "data": { "playerIndex": 3 } },
+                { "pos": 240,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 260,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 280,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 300,   "type": "player",   "data": { "playerIndex": 4 } },
+                { "pos": 320,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 340,   "type": "reserved", "data": { "reservedFor": "nothing"} }
+            ]
+        },
+        { 
+            "id": "intro6Players",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,     "type": "player",   "data": { "playerIndex": 0 } },
+                { "pos": 20,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 40,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 60,    "type": "player",   "data": { "playerIndex": 1 } },
+                { "pos": 80,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 100,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 120,   "type": "player",   "data": { "playerIndex": 2 } },
+                { "pos": 140,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 160,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 180,   "type": "player",   "data": { "playerIndex": 3 } },
+                { "pos": 200,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 220,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 240,   "type": "player",   "data": { "playerIndex": 4 } },
+                { "pos": 260,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 280,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 300,   "type": "player",   "data": { "playerIndex": 5 } },
+                { "pos": 320,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 340,   "type": "reserved", "data": { "reservedFor": "nothing"} }
+            ]
+        },
+        { 
+            "id": "intro7Players",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,     "type": "player",   "data": { "playerIndex": 0 } },
+                { "pos": 20,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 40,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 60,    "type": "player",   "data": { "playerIndex": 1 } },
+                { "pos": 80,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 100,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 120,   "type": "player",   "data": { "playerIndex": 2 } },
+                { "pos": 140,  "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 160,   "type": "player",   "data": { "playerIndex": 3 } },
+                { "pos": 180,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 200,   "type": "player",   "data": { "playerIndex": 4 } },
+                { "pos": 220,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 240,   "type": "player",   "data": { "playerIndex": 5 } },
+                { "pos": 260,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 280,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 300,   "type": "player",   "data": { "playerIndex": 6 } },
+                { "pos": 320,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 340,   "type": "reserved", "data": { "reservedFor": "nothing"} }
+            ]
+        },
+        { 
+            "id": "intro8Players",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,     "type": "player", 	"data": { "playerIndex": 0 } },
+                { "pos": 20,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 40,    "type": "player", 	"data": { "playerIndex": 1 } },
+                { "pos": 60,    "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 80,    "type": "player", 	"data": { "playerIndex": 2 } },
+                { "pos": 100,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 120,   "type": "player", 	"data": { "playerIndex": 3 } },
+                { "pos": 140,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 160,   "type": "player", 	"data": { "playerIndex": 4 } },
+                { "pos": 180,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 200,   "type": "player", 	"data": { "playerIndex": 5 } },
+                { "pos": 220,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 240,   "type": "player", 	"data": { "playerIndex": 6 } },
+                { "pos": 260,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 280,   "type": "player", 	"data": { "playerIndex": 7 } },
+                { "pos": 300,   "type": "reserved", "data": { "reservedFor": "nothing"} },
+                { "pos": 320,   "type": "player", 	"data": { "playerIndex": 4 } },
+                { "pos": 340,   "type": "reserved", "data": { "reservedFor": "nothing"} }
+            ]
+        },
+        { 
+            "id": "winWheelAllPlayerSlots",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,   	"type": "winner" },
+                { "pos": 30,  	"type": "winner" },
+                { "pos": 60,  	"type": "winner" },
+                { "pos": 90,	"type": "winner" },
+                { "pos": 120,	"type": "winner" },
+                { "pos": 150,  	"type": "winner" },
+                { "pos": 180,  	"type": "winner" },
+                { "pos": 210,  	"type": "winner" },
+                { "pos": 240, 	"type": "winner" },
+                { "pos": 270,  	"type": "winner" },
+                { "pos": 300,  	"type": "winner" },
+                { "pos": 330,  	"type": "winner" }			
+            ]
+        },		
+        { 
+            "id": "winWheel1PlayerSlots",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,   	"type": "bad" },
+                { "pos": 30,  	"type": "bad" },
+                { "pos": 60,  	"type": "winner" },
+                { "pos": 90,	"type": "bad" },
+                { "pos": 120,	"type": "bad" },
+                { "pos": 150,  	"type": "bad" },
+                { "pos": 180,  	"type": "bad" },
+                { "pos": 210,  	"type": "bad" },
+                { "pos": 240, 	"type": "bad" },
+                { "pos": 270,  	"type": "bad" },
+                { "pos": 300,  	"type": "bad" },
+                { "pos": 330,  	"type": "bad" }			
+            ]
+        },
+        { 
+            "id": "winWheel2PlayerSlots",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,   	"type": "bad" },
+                { "pos": 30,  	"type": "bad" },
+                { "pos": 60,  	"type": "winner" },
+                { "pos": 90,	"type": "bad" },
+                { "pos": 120,	"type": "bad" },
+                { "pos": 150,  	"type": "bad" },
+                { "pos": 180,  	"type": "bad" },
+                { "pos": 210,  	"type": "bad" },
+                { "pos": 240, 	"type": "winner" },
+                { "pos": 270,  	"type": "bad" },
+                { "pos": 300,  	"type": "bad" },
+                { "pos": 330,  	"type": "bad" }			
+            ]
+        },
+        { 
+            "id": "winWheel3PlayerSlots",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,   	"type": "bad" },
+                { "pos": 30,  	"type": "bad" },
+                { "pos": 60,  	"type": "winner" },
+                { "pos": 90,	"type": "bad" },
+                { "pos": 120,	"type": "bad" },
+                { "pos": 150,  	"type": "bad" },
+                { "pos": 180,  	"type": "winner" },
+                { "pos": 210,  	"type": "bad" },
+                { "pos": 240, 	"type": "bad" },
+                { "pos": 270,  	"type": "bad" },
+                { "pos": 300,  	"type": "winner" },
+                { "pos": 330,  	"type": "bad" }			
+            ]
+        },
+        { 
+            "id": "winWheel4PlayerSlots",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,   	"type": "bad" },
+                { "pos": 30,  	"type": "bad" },
+                { "pos": 60,  	"type": "winner" },
+                { "pos": 90,	"type": "bad" },
+                { "pos": 120,	"type": "bad" },
+                { "pos": 150,  	"type": "winner" },
+                { "pos": 180,  	"type": "bad" },
+                { "pos": 210,  	"type": "bad" },
+                { "pos": 240, 	"type": "winner" },
+                { "pos": 270,  	"type": "bad" },
+                { "pos": 300,  	"type": "bad" },
+                { "pos": 330,  	"type": "winner" }	
+            ]
+        },
+        { 
+            "id": "winWheel5PlayerSlots",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,   	"type": "winner" },
+                { "pos": 30,  	"type": "bad" },
+                { "pos": 60,  	"type": "winner" },
+                { "pos": 90,	"type": "bad" },
+                { "pos": 120,	"type": "winner" },
+                { "pos": 150,  	"type": "bad" },
+                { "pos": 180,  	"type": "winner" },
+                { "pos": 210,  	"type": "bad" },
+                { "pos": 240, 	"type": "bad" },
+                { "pos": 270,  	"type": "bad" },
+                { "pos": 300,  	"type": "winner" },
+                { "pos": 330,  	"type": "bad" }			
+            ]
+        },
+        { 
+            "id": "winWheel6PlayerSlots",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,   	"type": "winner" },
+                { "pos": 30,  	"type": "bad" },
+                { "pos": 60,  	"type": "winner" },
+                { "pos": 90,	"type": "bad" },
+                { "pos": 120,	"type": "winner" },
+                { "pos": 150,  	"type": "bad" },
+                { "pos": 180,  	"type": "winner" },
+                { "pos": 210,  	"type": "bad" },
+                { "pos": 240, 	"type": "winner" },
+                { "pos": 270,  	"type": "bad" },
+                { "pos": 300,  	"type": "winner" },
+                { "pos": 330,  	"type": "bad" }			
+            ]
+        },
+        { 
+            "id": "winWheel7PlayerSlots",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,   	"type": "winner" },
+                { "pos": 30,  	"type": "bad" },
+                { "pos": 60,  	"type": "winner" },
+                { "pos": 90,	"type": "winner" },
+                { "pos": 120,	"type": "bad" },
+                { "pos": 150,  	"type": "winner" },
+                { "pos": 180,  	"type": "bad" },
+                { "pos": 210,  	"type": "winner" },
+                { "pos": 240, 	"type": "winner" },
+                { "pos": 270,  	"type": "bad" },
+                { "pos": 300,  	"type": "winner" },
+                { "pos": 330,  	"type": "bad" }			
+            ]
+        },
+        { 
+            "id": "winWheel8PlayerSlots",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,   	"type": "winner" },
+                { "pos": 30,  	"type": "bad" },
+                { "pos": 60,  	"type": "winner" },
+                { "pos": 90,	"type": "winner" },
+                { "pos": 120,	"type": "bad" },
+                { "pos": 150,  	"type": "winner" },
+                { "pos": 180,  	"type": "winner" },
+                { "pos": 210,  	"type": "bad" },
+                { "pos": 240, 	"type": "winner" },
+                { "pos": 270,  	"type": "winner" },
+                { "pos": 300,  	"type": "bad" },
+                { "pos": 330,  	"type": "winner" }			
+            ]
+        },
+        { 
+            "id": "winWheel9PlayerSlots",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,   	"type": "winner" },
+                { "pos": 30,  	"type": "bad" },
+                { "pos": 60,  	"type": "winner" },
+                { "pos": 90,	"type": "winner" },
+                { "pos": 120,	"type": "winner" },
+                { "pos": 150,  	"type": "bad" },
+                { "pos": 180,  	"type": "winner" },
+                { "pos": 210,  	"type": "winner" },
+                { "pos": 240, 	"type": "winner" },
+                { "pos": 270,  	"type": "bad" },
+                { "pos": 300,  	"type": "winner" },
+                { "pos": 330,  	"type": "winner" }		
+            ]
+        },
+        { 
+            "id": "winWheel10PlayerSlots",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,   	"type": "winner" },
+                { "pos": 30,  	"type": "winner" },
+                { "pos": 60,  	"type": "winner" },
+                { "pos": 90,	"type": "winner" },
+                { "pos": 120,	"type": "winner" },
+                { "pos": 150,  	"type": "bad" },
+                { "pos": 180,  	"type": "winner" },
+                { "pos": 210,  	"type": "winner" },
+                { "pos": 240, 	"type": "winner" },
+                { "pos": 270,  	"type": "winner" },
+                { "pos": 300,  	"type": "winner" },
+                { "pos": 330,  	"type": "bad" }		
+            ]
+        },
+        { 
+            "id": "winWheel11PlayerSlots",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,   	"type": "winner" },
+                { "pos": 30,  	"type": "winner" },
+                { "pos": 60,  	"type": "winner" },
+                { "pos": 90,	"type": "winner" },
+                { "pos": 120,	"type": "winner" },
+                { "pos": 150,  	"type": "winner" },
+                { "pos": 180,  	"type": "winner" },
+                { "pos": 210,  	"type": "winner" },
+                { "pos": 240, 	"type": "winner" },
+                { "pos": 270,  	"type": "bad" },
+                { "pos": 300,  	"type": "winner" },
+                { "pos": 330,  	"type": "winner" }
+            ]
+        },
+        { 
+            "id": "winWheel12PlayerSlots",
+            "isValid": "false",
+            "slices":[
+                { "pos": 0,   	"type": "winner" },
+                { "pos": 30,  	"type": "winner" },
+                { "pos": 60,  	"type": "winner" },
+                { "pos": 90,	"type": "winner" },
+                { "pos": 120,	"type": "winner" },
+                { "pos": 150,  	"type": "winner" },
+                { "pos": 180,  	"type": "winner" },
+                { "pos": 210,  	"type": "winner" },
+                { "pos": 240, 	"type": "winner" },
+                { "pos": 270,  	"type": "winner" },
+                { "pos": 300,  	"type": "winner" },
+                { "pos": 330,  	"type": "winner" }			
+            ]
+        }
+    ]
+}

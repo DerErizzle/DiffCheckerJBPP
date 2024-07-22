@@ -1,0 +1,18 @@
+MAIN(Supertremendous Man): Greetings, hero! I need your help to defeat Dr. Vileplan.
+-YES-> I'll chop him up with my laser sword!
+-NAH-> Hmm, I should go watch TV.
+
+NAH(Supertremendous Man): Please don't abandon Skyscraper City in its hour of need!
+-FAILURE-> I'm too old to play with action figures. Where's the remote?
+-YES-> Okay, I'll zap Dr. Vileplan with my heat vision.
+
+YES(Dr Vileplan): Muahaha! Once I unleash my Mecha-Cow, Skyscraper City is doomed!
+-DOOMED-> I guess Dr. Vileplan wins this round.
+-NOTSOFAST-> Not so fast, doctor. Blammo! Pow! Kaboom!
+
+DOOMED(Dr Vileplan): Really? You're just going to let me win?
+-NOTSOFAST-> No, I was tricking you... so I could zap you with my hyper beam! ZZZORCH!
+-FAILURE-> I don't want to play superheroes anymore. Where's the remote?
+
+NOTSOFAST(Supertremendous Man): Hooray! You killed Dr. Vileplan and saved the city!
+-SUCCESS-> All in a day's work for the world's greatest hero!

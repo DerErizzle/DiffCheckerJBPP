@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/14.0">
+
+    <id>com.jackboxgames.ydkj2015</id>
+    <versionNumber>1.0</versionNumber>
+    <filename>YDKJ2015</filename>
+    <name>YDKJ2015</name>
+
+    <initialWindow>
+        <title>YDKJ2015</title>
+        <content>YDKJ2015.swf</content>
+        <systemChrome>standard</systemChrome>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <minimizable>true</minimizable>
+        <maximizable>true</maximizable>
+        <resizable>true</resizable>
+    </initialWindow>
+    
+    <supportedProfiles>extendedDesktop</supportedProfiles>
+    
+</application>

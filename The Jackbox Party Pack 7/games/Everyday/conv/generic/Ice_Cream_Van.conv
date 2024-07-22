@@ -1,0 +1,24 @@
+MAIN(Vendor): Good day! What frozen sweet treat would you like? Options are on the side of the van.
+-VANILLA-> Vanilla Mix-Up
+-CHOCO-> Choco-Splosion
+-GRAPE-> Grape Mistake
+-NONE-> Eh, never mind....
+
+VANILLA(Vendor): Here ya go!
+-SUCCESS-> A bland delight!
+
+CHOCO(Vendor): Here ya go!
+-SUCCESS-> Fudge-tastic!
+
+GRAPE(Vendor): Here ya go!
+-SUCCESS-> Does not taste quite purple enough
+
+NONE(Vendor): Last chance?
+-FAILURE-> Just go!
+-TRYAGAIN-> Maybe....
+
+TRYAGAIN(Vendor): Take another look?
+-VANILLA-> Vanilla Mix-Up
+-CHOCO-> Choco-Splosion
+-GRAPE-> Grape Mistake
+-NONE-> Eh, never mind....

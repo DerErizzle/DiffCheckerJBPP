@@ -1,0 +1,24 @@
+MAIN(Boss): How may I help you, young capitalist?
+-ADVICE-> How can I be a huge success like you?
+-BRATTY-> How can I avoid your many obvious mistakes?
+-SHORTCUT-> Is there some shortcut to success that doesn't involve so much "trying"?
+
+ADVICE(Boss): Honestly, it's all in the clothes. Get yourself a good tailor and you're halfway there.
+-TAILOR-> Who's your guy?
+-BODYTEMP-> My high extremely high body temperature is NOT good for linen.
+
+TAILOR(Boss): Talk to Vinny at the Suit Depot and tell him I sent you.
+-SUCCESS-> I have made a connection!
+
+BODYTEMP(Boss): They're doing great things with Nomex office-wear these days.
+-SUCCESS-> Well, that's enough talking for now.
+
+BRATTY(Boss): I guess go back to 1998 and tell Carolyn I don't want her to move to Detroit...
+-SUCCESS-> This got too real.
+
+SHORTCUT(Boss): That depends. Were you born rich?
+-NOTRICH-> Unfortunately, not.
+-NOTRICH-> If I was, would I be wasting my time talking to you?
+
+NOTRICH(Boss): Then I can't help you.
+-SUCCESS-> Trenchant commentary.

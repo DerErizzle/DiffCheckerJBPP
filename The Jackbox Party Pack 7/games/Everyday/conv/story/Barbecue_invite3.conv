@@ -1,0 +1,13 @@
+MAIN(Riley): So, you're having a barbecue?
+-EAGER-> Yes! You should totally come!!
+-ANTI-> Ugh. It's going to be so embarrassing
+-ALOOF-> Maybe. I'm not sure. I don't even care.
+
+EAGER(Riley): Cool! I'll bring my visiting extended family!
+-SUCCESS-> That should be...fine...
+
+ANTI(Riley): Actually I kind of like barbecues...
+-SUCCESS-> I KNOW RIGHT ME TOO YOU SHOULD COME!!
+
+ALOOF(Riley): I've learned from our previous interactions that this means you want me to come to the barbecue.
+-SUCCCESS-> Riley is the best!

@@ -1,0 +1,64 @@
+{
+    "payload":[
+        {
+            "id": "roundOne",
+            "skeleton": { "types": [ "tappingList", "tappingList", [ "typingList", "numberTarget", "rapidFire", "matching", "guessing" ]] },
+            "isValid": "roundNum == 1",
+            "numSpinsBeforeFinal": 3
+        },
+        {
+            "id": "roundTwoNumber",
+            "skeleton": { "types": [ "tappingList", "numberTarget", [ "tappingList", "typingList", "rapidFire", "matching", "guessing" ]] },
+            "isValid": "roundNum == 2",
+            "numSpinsBeforeFinal": 4
+        },
+        {
+            "id": "roundTwoMatching",
+            "skeleton": { "types": [ "tappingList", "matching", [ "tappingList", "typingList", "numberTarget", "rapidFire", "guessing" ]] },
+            "isValid": "roundNum == 2",
+            "numSpinsBeforeFinal": 4
+        },
+        {
+            "id": "roundTwoGuessing",
+            "skeleton": { "types": [ "tappingList", "guessing", [ "tappingList", "typingList", "numberTarget", "rapidFire", "matching" ]] },
+            "isValid": "roundNum == 2",
+            "numSpinsBeforeFinal": 4
+        },
+        {
+            "id": "roundTwoRapidFire",
+            "skeleton": { "types": [ "tappingList", "rapidFire", [ "tappingList", "typingList", "numberTarget", "matching", "guessing" ]] },
+            "isValid": "roundNum == 2",
+            "numSpinsBeforeFinal": 4
+        },	
+        {
+            "id": "roundThreeNumberTarget",
+            "skeleton": { "types": [ "numberTarget", "tappingList", [ "typingList", "matching", "guessing", "rapidFire" ]] },
+            "isValid": "roundNum == 3",
+            "numSpinsBeforeFinal": 6
+        },
+        {
+            "id": "roundThreeRapidFire",
+            "skeleton": { "types": [ "rapidFire", "tappingList", [ "typingList", "numberTarget", "matching", "guessing" ]] },
+            "isValid": "roundNum == 3",
+            "numSpinsBeforeFinal": 6
+        },
+        {
+            "id": "roundThreeMatching",
+            "skeleton": { "types": [ "matching", "tappingList", [ "typingList", "numberTarget", "guessing", "rapidFire" ]] },
+            "isValid": "roundNum == 3",
+            "numSpinsBeforeFinal": 6
+        },
+        {
+            "id": "roundThreeGuessing",
+            "skeleton": { "types": [ "guessing", "tappingList", [ "typingList", "numberTarget", "matching", "rapidFire" ]] },
+            "isValid": "roundNum == 3",
+            "numSpinsBeforeFinal": 6
+        },		
+        {
+            "id": "roundFourAndBeyond",
+            "skeleton": { "types": [ [  "tappingList", "numberTarget", "matching", "guessing", "rapidFire", "typingList" ] ] },
+            "isValid": "roundNum >= 4",
+            "numSpinsBeforeFinal": 8
+        }		
+    ]
+}

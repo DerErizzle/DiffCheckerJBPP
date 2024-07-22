@@ -1,0 +1,17 @@
+MAIN(Butcher): I don't suppose you got room for one more.
+-COURSE-> Of course!
+-FAMILY-> It's just family.
+-CHAIRS-> We're out of chairs.
+-NOT-> Yes, but not you.
+
+COURSE(Butcher): Great! I'll bring the kids.
+-SUCCESS-> Backyard's getting full...
+
+FAMILY(Butcher): I understand.
+-SUCCESS-> Never mind, you can come!
+
+CHAIRS(Butcher): I can sit on the ground.
+-SUCCESS-> Okay, you can come!
+
+NOT(Butcher): Can I just send my kids?
+-SUCCESS->...fine.

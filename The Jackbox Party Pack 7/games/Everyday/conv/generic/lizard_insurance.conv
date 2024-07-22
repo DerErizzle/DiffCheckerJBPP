@@ -1,0 +1,28 @@
+MAIN(Telemarketer): Can I interest you in a lizard insurance policy? 
+-NOTHANKS-> I've already insured my iguana.
+-GOON-> That sounds interesting, tell me more
+-MARK-> Of course, I must protect my sweet little skink!
+-DONOTCALL-> Take a hike, scammer!
+
+
+NOTHANKS(Telemarketer): Your politeness is off-putting. I'm hanging up. 
+-SUCCESS-> Lying is once again the answer!
+
+
+GOON(Telemarketer): Oh no, I've never gotten this far...uh...uh...you should take MY money!
+-SUCCESS-> I'm the lizard wizard!
+
+
+MARK(Telemarketer): Excellent, let's start you off at $100,000 in scale coverage...
+-FAILURE-> There's one born every minute...
+
+
+DONOTCALL(Telemarketer): Oh, you don't really mean that, do you?
+-SUCCESS-> I'll hang up so hard your grandma will feel it!
+-TRYAGAIN-> Well, now I feel bad. 
+
+
+TRYAGAIN(Telemarketer): Can I interest you in a lizard insurance policy? 
+-NOTHANKS-> I've already insured my iguana.
+-GOON-> That sounds interesting, tell me more
+-MARK-> Of course, I must protect my sweet little skink!

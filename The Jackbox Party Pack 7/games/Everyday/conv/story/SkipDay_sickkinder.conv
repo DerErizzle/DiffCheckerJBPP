@@ -1,0 +1,17 @@
+MAIN(Vice Principal): Why are you missing school today?
+-THROW-> I'm throwing up everywhere.
+-FIND-> I've gone missing.
+-CERN-> CERN needs me.
+-LOVE-> I love school. This is a punishment.
+
+THROW(Vice Principal): Gross. Stay home!
+-SUCCESS-> Bwahahaha!
+
+FIND(Vice Principal): We'll contact the authorities
+-SUCCESS-> Uhhhh... never mind, I found me!
+
+CERN(Vice Principal): Again!?
+-SUCCESS-> That's Swiss tax dollars at work!
+
+LOVE(Vice Principal): Tough but fair. 
+-SUCCESS-> I'm also feeding my homework to the cat. 
